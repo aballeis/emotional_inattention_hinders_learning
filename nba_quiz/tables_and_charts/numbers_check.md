@@ -15,7 +15,7 @@ verbatim in that section of the paper.
 | Sec 4 NBA | Recruitment dates | from August 10 to 13, 2026 |  | yes |
 | Sec 4 NBA | Average bonus | the average bonus was \$0.64 | 0.6390 | yes |
 | Sec 4 NBA | Median duration (minutes) | the median duration 8 minutes | 7.95 | yes |
-| Sec 4 NBA | Comprehension check (footnote) | Of the 1,353 participants who made at least one attempt, 41 percent passed on their first try and 72 percent passed within three tries; 27 percent failed all three attempts and exited the study, and the remaining 1 percent quit |  | yes |
+| Sec 4 NBA | Comprehension check (footnote) | Of the 1,352 participants who made at least one attempt, 41 percent passed on their first try and 72 percent passed within three tries; 27 percent failed all three attempts and exited the study, and the remaining 1 percent quit |  | yes |
 | Sec 4 NBA | Win and loss in Round 1, among those completing Round 1 | which was 89 percent of those who completed Round 1 | 863 of 970 | yes |
 | Sec 4 NBA | Recall check (footnote) | Of the 964 participants who answered the recall question, 70 percent gave the correct margin on their first try; of the remaining 285, 96 percent looked at the review again |  | yes |
 | Sec 4 NBA | Completed / looked up / analysis sample | In total, 851 participants completed the study. We exclude the 50 who reported having looked up NBA games, which leaves an analysis sample of 801. |  | yes |

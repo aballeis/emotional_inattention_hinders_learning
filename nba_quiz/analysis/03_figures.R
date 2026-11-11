@@ -12,8 +12,8 @@ save_fig <- function(p, name, w, h) {
   if (dir.exists(paper_dir)) invisible(file.copy(file, paper_dir, overwrite = TRUE))
 }
 
-cols <- c(win = "#3CB371", indifferent = "#A0A0A0", loss = "#C0392B")
-pref_labels <- c(win = "Prefer to review the win", indifferent = "No preference", loss = "Prefer to review the loss")
+cols <- c(loss = "#C0392B", win = "#3CB371", indifferent = "#A0A0A0")
+pref_labels <- c(loss = "Prefer to review the loss", win = "Prefer to review the win", indifferent = "No preference")
 theme_paper <- theme_classic(base_size = 10) +
   theme(panel.grid.major.y = element_line(colour = "grey88", linewidth = 0.3),
         axis.text = element_text(colour = "black"), legend.position = "bottom", legend.title = element_blank(),
@@ -31,7 +31,7 @@ d <- read_csv("data/built/participant_level_data.csv", show_col_types = FALSE) %
 
 overall <- d %>% count(pref) %>% share()
 by_belief <- d %>%
-  mutate(belief = factor(helpful, c("win", "no difference", "loss"), c("The win", "No difference", "The loss"))) %>%
+  mutate(belief = factor(helpful, c("loss", "win", "no difference"), c("The loss", "The win", "No difference"))) %>%
   count(belief, pref) %>%
   group_by(belief) %>%
   share() %>%
@@ -39,7 +39,7 @@ by_belief <- d %>%
 
 p_all <- ggplot(overall, aes(pref, 100 * p, fill = pref)) +
   bars(width = 0.8) + ci() +
-  scale_x_discrete(labels = c("Win", "No\npreference", "Loss")) +
+  scale_x_discrete(labels = c("Loss", "Win", "No\npreference")) +
   scale_fill_manual(values = cols, labels = pref_labels, drop = FALSE) +
   pct_axis + labs(x = NULL, y = "Share of participants (%)", title = sprintf("All participants (N = %d)", nrow(d))) + theme_paper
 p_belief <- ggplot(by_belief, aes(belief, 100 * p, fill = pref)) +
@@ -74,7 +74,7 @@ conf <- d %>%
   mutate(stated = post_r2_confidence_percent,
          actual = 100 * as.numeric(post_r2_confidence_performance_success),
          over = stated - actual,
-         assign = factor(review_assignment, c("win", "loss"), c("Reviewed the win", "Reviewed the loss")))
+         assign = factor(review_assignment, c("loss", "win"), c("Reviewed the loss", "Reviewed the win")))
 outcomes <- c(stated = "Stated probability of\nwinning a majority", actual = "Share actually\nwinning a majority",
               over = "Overconfidence\n(stated minus actual)")
 p_value <- function(v) {
@@ -95,6 +95,6 @@ p_conf <- ggplot(conf_means, aes(outcome, mean)) +
   geom_col(aes(fill = assign), position = position_dodge(0.75), width = 0.7, colour = "grey30", linewidth = 0.2) +
   geom_errorbar(aes(group = assign, ymin = mean - 1.96 * se, ymax = mean + 1.96 * se), position = position_dodge(0.75), width = 0.12, linewidth = 0.5) +
   geom_text(data = conf_p, aes(y = top, label = label), parse = TRUE, vjust = 0, size = 3.4) +
-  scale_fill_manual(values = unname(cols[c("win", "loss")])) +
+  scale_fill_manual(values = unname(cols[c("loss", "win")])) +
   pct_axis + labs(x = NULL, y = "Percent") + theme_paper
 save_fig(p_conf, "nba_confidence", 5.9, 3.0)

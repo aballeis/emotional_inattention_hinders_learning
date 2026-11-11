@@ -52,7 +52,7 @@ bonus <- responses %>% group_by(pid) %>% summarise(wins = sum(outcome == "won"))
 add("Sample", nba, "Average bonus", sprintf("the average bonus was \\$%.2f", mean(bonus$bonus)), sprintf("%.4f", mean(bonus$bonus)))
 dur <- median(as.numeric(d$duration_in_seconds)) / 60
 add("Sample", nba, "Median duration (minutes)", sprintf("the median duration %.0f minutes", dur), sprintf("%.2f", dur))
-att <- participants %>% filter(entered_app, !is.na(comprehension_attempts), comprehension_attempts >= 1)
+att <- participants %>% filter(passed_attention, !is.na(comprehension_attempts), comprehension_attempts >= 1)
 done <- !is.na(att$comprehension_completed_utc)
 add("Sample", nba, "Comprehension check (footnote)",
     sprintf("Of the %s participants who made at least one attempt, %s percent passed on their first try and %s percent passed within three tries; %s percent failed all three attempts and exited the study, and the remaining %s percent quit",
