@@ -68,7 +68,7 @@ add("Sample", nba, "Recall check (footnote)",
             f_int(nrow(recall)), pc(mean(recall$review_margin_wrong_guesses == 0)), f_int(nrow(wrong)), pc(mean(wrong$review_margin_used_reopen == 1))))
 completed <- with(participants, passed_attention & attempted_comprehension & passed_comprehension & completed_r1 & completed_r2 & closing_questions)
 add("Sample", nba, "Completed / no win and loss in Round 1 / looked up / analysis sample",
-    sprintf("In total, %d participants completed the study. We exclude the %d who did not have both a won and a lost question in Round 1, and the %d who reported having looked up NBA games, which leaves an analysis sample of %d.",
+    sprintf("In total, %d participants completed the study. We exclude the %d who did not have both a won and a lost question in Round 1, and the additional %d who reported having looked up NBA games, which leaves an analysis sample of %d.",
             sum(completed), sum(completed & !participants$win_and_loss_r1), remaining[["closing_questions"]] - remaining[["no_lookup"]], remaining[["no_lookup"]]))
 
 # ---- Causal effect of reviewing ----
