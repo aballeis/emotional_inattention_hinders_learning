@@ -30,8 +30,11 @@ d <- read_csv("data/built/participant_level_data.csv", show_col_types = FALSE) %
 # ---- Review preferences ----
 
 overall <- d %>% count(pref) %>% share()
+beliefs <- c(loss = "Loss helps more", win = "Win helps more", "no difference" = "No difference")
+belief_n <- count(d, helpful)
+belief_labels <- sprintf("%s\n(n = %d)", beliefs, belief_n$n[match(names(beliefs), belief_n$helpful)])
 by_belief <- d %>%
-  mutate(belief = factor(helpful, c("loss", "win", "no difference"), c("The loss", "The win", "No difference"))) %>%
+  mutate(belief = factor(helpful, names(beliefs), belief_labels)) %>%
   count(belief, pref) %>%
   group_by(belief) %>%
   share() %>%
@@ -39,13 +42,14 @@ by_belief <- d %>%
 
 p_all <- ggplot(overall, aes(pref, 100 * p, fill = pref)) +
   bars(width = 0.8) + ci() +
-  scale_x_discrete(labels = c("Loss", "Win", "No\npreference")) +
+  scale_x_discrete(labels = NULL) +
   scale_fill_manual(values = cols, labels = pref_labels, drop = FALSE) +
-  pct_axis + labs(x = NULL, y = "Share of participants (%)", title = sprintf("All participants (N = %d)", nrow(d))) + theme_paper
+  pct_axis + labs(x = NULL, y = "Share of participants (%)", title = sprintf("All participants (N = %d)", nrow(d))) + theme_paper +
+  theme(axis.ticks.x = element_blank())
 p_belief <- ggplot(by_belief, aes(belief, 100 * p, fill = pref)) +
   bars(position = position_dodge(0.85), width = 0.8) + ci(position = position_dodge(0.85)) +
   scale_fill_manual(values = cols, labels = pref_labels) +
-  pct_axis + labs(x = NULL, y = NULL, title = "By belief about which review helps more") + theme_paper
+  pct_axis + labs(x = "Belief: which review helps more in Round 2", y = NULL, title = "By belief") + theme_paper
 save_fig((p_all + p_belief) + plot_layout(widths = c(1, 1.6), guides = "collect") & theme(legend.position = "bottom"),
          "nba_review_preferences", 6.5, 3.2)
 
