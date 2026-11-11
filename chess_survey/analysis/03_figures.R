@@ -32,12 +32,12 @@ helpful <- panel(d$helps_more, c("lost", "won", "both", "neither"), c("Loss", "W
                  cols[c("loss", "win", "other", "other")], "(a) More helpful",
                  binom_p(sum(d$helps_more == "lost"), sum(d$helps_more %in% c("lost", "won")))) +
   labs(y = "Share of respondents (%)")
-pleasant <- panel(d$feels_better, c("won", "lost", "nodiff"), c("Win", "Loss", "No\ndifference"),
-                  cols[c("win", "loss", "other")], "(b) More pleasant",
+pleasant <- panel(d$feels_better, c("lost", "won", "nodiff"), c("Loss", "Win", "No\ndifference"),
+                  cols[c("loss", "win", "other")], "(b) More pleasant",
                   binom_p(sum(d$feels_better == "won"), sum(d$feels_better %in% c("won", "lost"))))
 time <- d %>%
   pivot_longer(c(time_wins, time_losses), names_to = "games", values_to = "v") %>%
-  mutate(games = factor(games, c("time_wins", "time_losses"), c("Wins", "Losses")),
+  mutate(games = factor(games, c("time_losses", "time_wins"), c("Losses", "Wins")),
          v = factor(v, c(-1, 0, 1), c("Less", "Same", "More"))) %>%
   count(games, v, .drop = FALSE) %>%
   share() %>%

@@ -46,13 +46,14 @@ participants <- main %>%
   mutate(
     across(starts_with(c("n_", "wins_", "losses_")), \(x) replace_na(x, 0L)),
     passed_attention = att_check == "Somewhat disagree",
+    attempted_comprehension = replace_na(comprehension_attempts, 0) >= 1,
     passed_comprehension = !is.na(comprehension_completed_utc),
     completed_r1 = n_r1 == 5,
     win_and_loss_r1 = wins_r1 >= 1 & losses_r1 >= 1,
     completed_r2 = n_r2 == 5,
     closing_questions = !is.na(nba_fan_level) & !is.na(cheating),
     no_lookup = str_to_lower(str_trim(replace_na(cheating, ""))) != "yes",
-    in_sample = passed_attention & entered_app & passed_comprehension & completed_r1 & win_and_loss_r1 &
+    in_sample = passed_attention & attempted_comprehension & passed_comprehension & completed_r1 & win_and_loss_r1 &
       completed_r2 & closing_questions & no_lookup,
     review_assignment = unname(outcome_label[case_when(assigned_review_game_id == review_option_a_game_id ~ outcome_a,
                                                        assigned_review_game_id == review_option_b_game_id ~ outcome_b)]),

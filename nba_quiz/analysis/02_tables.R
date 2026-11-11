@@ -72,7 +72,7 @@ write_table(c(
 # ---- Sample flow ----
 
 steps <- c(passed_attention = "Passed the attention check",
-           entered_app = "Entered the main study",
+           attempted_comprehension = "Attempted the comprehension check",
            passed_comprehension = "Passed the comprehension check (at most three attempts)",
            completed_r1 = "Completed Round 1",
            win_and_loss_r1 = "At least one won and one lost question in Round 1",

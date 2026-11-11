@@ -40,7 +40,7 @@ llm <- "Sec A3 Classifier Prompt.tex"
 
 # ---- Sample ----
 
-flow <- c("passed_attention", "entered_app", "passed_comprehension", "completed_r1", "win_and_loss_r1",
+flow <- c("passed_attention", "attempted_comprehension", "passed_comprehension", "completed_r1", "win_and_loss_r1",
           "completed_r2", "closing_questions", "no_lookup")
 remaining <- accumulate(flow, \(s, v) s & participants[[v]], .init = rep(TRUE, nrow(participants))) %>% map_int(sum) %>% set_names(c("started", flow))
 dates <- as.Date(d$start_date)
