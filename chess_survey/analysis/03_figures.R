@@ -41,14 +41,14 @@ time <- d %>%
          v = factor(v, c(-1, 0, 1), c("Less", "Same", "More"))) %>%
   count(games, v, .drop = FALSE) %>%
   share() %>%
-  ggplot(aes(games, 100 * p, fill = v)) +
-  geom_col(position = position_dodge(0.75), width = 0.7, colour = "grey30", linewidth = 0.2) +
-  geom_errorbar(aes(ymin = lo, ymax = hi), position = position_dodge(0.75), width = 0.12, linewidth = 0.5) +
-  annotate("text", x = 1, y = 93, label = p_label(binom_p(sum(d$shift > 0), sum(d$shift != 0))), parse = TRUE, size = 3.4) +
-  scale_fill_manual(values = c(Less = "grey85", Same = "grey60", More = "grey30")) +
-  scale_x_discrete(expand = expansion(add = c(0.6, 1.3))) +
+  ggplot(aes(v, 100 * p, colour = games)) +
+  geom_errorbar(aes(ymin = lo, ymax = hi), position = position_dodge(0.3), width = 0.12, linewidth = 0.5) +
+  geom_point(position = position_dodge(0.3), size = 3.2) +
+  annotate("text", x = 2, y = 93, label = p_label(binom_p(sum(d$shift > 0), sum(d$shift != 0))), parse = TRUE, size = 3.4) +
+  scale_colour_manual(values = unname(cols[c("loss", "win")])) +
   pct_axis + labs(x = NULL, y = NULL, title = "(c) Wish to spend ... time") + theme_paper +
-  theme(legend.position = "inside", legend.position.inside = c(0.88, 0.85))
+  coord_cartesian(clip = "off") +
+  theme(legend.position = "inside", legend.position.inside = c(0.2, 0.65))
 
 file <- file.path(out_dir, "chess_survey_all_answers.pdf")
 ggsave(file, helpful + pleasant + time, width = 7.4, height = 2.9, device = cairo_pdf)

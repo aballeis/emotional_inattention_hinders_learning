@@ -5,7 +5,7 @@ Regressions use HC1 standard errors; effects of the assigned review control for 
 interactions with the assignment (preregistered Analysis 4). "In paper" checks that the text in the Value column appears
 verbatim in that section of the paper.
 
-**34 of 34 statistics found in the paper text.**
+**33 of 34 statistics found in the paper text.**
 
 ## Sample
 
@@ -18,7 +18,7 @@ verbatim in that section of the paper.
 | Sec 4 NBA | Comprehension check (footnote) | Of the 1,352 participants who made at least one attempt, 41 percent passed on their first try and 72 percent passed within three tries; 27 percent failed all three attempts and exited the study, and the remaining 1 percent quit |  | yes |
 | Sec 4 NBA | Win and loss in Round 1, among those completing Round 1 | which was 89 percent of those who completed Round 1 | 863 of 970 | yes |
 | Sec 4 NBA | Recall check (footnote) | Of the 964 participants who answered the recall question, 70 percent gave the correct margin on their first try; of the remaining 285, 96 percent looked at the review again |  | yes |
-| Sec 4 NBA | Completed / no win and loss in Round 1 / looked up / analysis sample | In total, 958 participants completed the study. We exclude the 107 who did not have both a won and a lost question in Round 1, and the 50 who reported having looked up NBA games, which leaves an analysis sample of 801. |  | yes |
+| Sec 4 NBA | Completed / no win and loss in Round 1 / looked up / analysis sample | In total, 958 participants completed the study. We exclude the 107 who did not have both a won and a lost question in Round 1, and the 50 who reported having looked up NBA games, which leaves an analysis sample of 801. |  | NO: expected `In total, 958 participants completed the study. We exclude the 107 who did not have both a won and a lost question in Round 1, and the 50 who reported having looked up NBA games, which leaves an analysis sample of 801.` |
 
 ## Effect of reviewing
 
