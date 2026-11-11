@@ -1,0 +1,802 @@
+pid,pref,model,hedonic,instrumental,curiosity,team,indifference,other,note
+P0004,win,claude-haiku-4-5,0,0,1,0,0,0,"Participant wants to review the win to see how close their prediction was, driven by curiosity about the outcome rather than learning or hedonic motivation."
+P0006,win,claude-haiku-4-5,1,0,0,0,0,0,Participant prefers to review the win because they want to feel good and savor the positive outcome.
+P0007,win,claude-haiku-4-5,0,0,1,0,0,0,Participant wants to watch the game flow of their correct prediction out of curiosity about how it unfolded.
+P0009,loss,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the loss to understand how inaccurate their prediction was, combining instrumental learning with curiosity about the outcome."
+P0010,indifferent,claude-haiku-4-5,0,0,0,0,1,0,"Participant expresses indifference by declining to preview either game, suggesting the choice doesn't matter to them."
+P0014,win,claude-haiku-4-5,0,0,1,0,0,0,"Participant wants to see how the exciting game unfolded based on the graph, driven by curiosity rather than learning or emotional reasons."
+P0015,win,claude-haiku-4-5,1,1,1,0,0,0,Participant wants to review the win to experience the positive feeling of success and understand what led to the correct prediction.
+P0017,win,claude-haiku-4-5,1,0,0,0,0,0,Participant prefers to review the win to feel good and avoid the negative emotions associated with reviewing a loss.
+P0019,loss,claude-haiku-4-5,0,1,0,0,0,0,"Participant wants to review the loss to understand what the correct answer was, indicating an instrumental motivation to learn from the mistake."
+P0020,win,claude-haiku-4-5,1,0,0,0,0,0,Participant prefers to review the win to validate success and feel good about a correct prediction.
+P0021,loss,claude-haiku-4-5,0,1,0,0,0,0,"Participant wants to review the loss to check their answers, indicating an instrumental motivation to learn from mistakes."
+P0023,win,claude-haiku-4-5,0,0,0,0,1,0,Participant randomly selected the win with no stated preference or reasoning.
+P0024,loss,claude-haiku-4-5,0,0,1,0,0,0,Participant wants to review the loss out of curiosity about the final outcome and how the game unfolded.
+P0027,win,claude-haiku-4-5,1,0,0,0,0,0,"Participant wants to review the win because it resulted in a tangible reward, reflecting hedonic motivation to experience the positive outcome."
+P0028,win,claude-haiku-4-5,1,0,1,0,0,0,Participant wants to review the win to feel good about earning the bonus and satisfy curiosity about the outcome.
+P0030,win,claude-haiku-4-5,1,0,0,0,0,0,Participant wants to review the win to relive or savor the positive outcome.
+P0034,loss,claude-haiku-4-5,0,0,1,0,0,0,"Participant wants to see how close their prediction was to the actual outcome, driven by curiosity about the game results rather than learning or hedonic motives."
+P0037,win,claude-haiku-4-5,1,0,1,0,0,0,"Participant wants to review the win, motivated by both the desire to relive the positive experience (hedonic) and curiosity about how the game unfolded."
+P0038,win,claude-haiku-4-5,0,1,0,0,0,0,"Participant wants to review the win to understand what they did correctly, indicating an instrumental learning motivation."
+P0039,loss,claude-haiku-4-5,0,1,0,0,0,0,"Participant wants to review the loss to understand how inaccurate their prediction was, indicating a learning/improvement motivation."
+P0040,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to understand how inaccurate their prediction was in order to improve their estimations in future rounds.
+P0042,indifferent,claude-haiku-4-5,0,0,0,0,1,0,Participant explicitly states they have no preference between reviewing the win or loss.
+P0043,win,claude-haiku-4-5,1,0,0,0,0,0,Participant prefers to review the win to avoid the negative feeling of confronting a close loss.
+P0045,win,claude-haiku-4-5,0,0,0,1,0,0,"Participant chose to review the win because of interest in the Knicks as a team, demonstrating team fandom rather than hedonic, instrumental, or curiosity motivations."
+P0048,win,claude-haiku-4-5,1,0,0,0,0,0,Participant wants to review the win to experience the positive feeling of winning.
+P0049,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to improve their predictions in the second round.
+P0052,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant chose to review the loss because they believe it provides more learning value.
+P0056,indifferent,claude-haiku-4-5,0,0,0,1,1,0,"Participant expressed no preference but based their consideration on team quality, indicating both indifference to the choice and team-based reasoning."
+P0057,win,claude-haiku-4-5,0,0,1,0,0,0,Participant wants to review the win out of curiosity to see how the game actually played out.
+P0058,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to understand their mistake and improve accuracy for better performance in the second round.
+P0059,win,claude-haiku-4-5,0,0,1,1,0,0,Participant wants to watch the winning game out of curiosity about how it unfolded and because they are a fan of the New Orleans team.
+P0062,loss,claude-haiku-4-5,0,1,0,0,0,0,"Participant wants to review the loss to receive feedback, indicating an instrumental motivation to learn from the mistake."
+P0064,loss,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the loss to learn from their mistake and understand the game details (upset status, score), combining instrumental learning goals with curiosity about how the game unfolded."
+P0065,win,claude-haiku-4-5,0,0,1,0,0,0,Participant wants to review the win out of curiosity about how the game unfolded and how accurate their prediction was.
+P0069,loss,claude-haiku-4-5,0,0,1,0,0,0,"Participant wants to review the loss out of curiosity about the margin and closeness of their prediction, without mentioning learning or improvement."
+P0070,loss,claude-haiku-4-5,0,0,1,0,0,0,Participant wants to review the loss out of curiosity about how the game unfolded.
+P0073,win,claude-haiku-4-5,0,0,1,0,0,0,"Participant wants to review the win to see how close their prediction was, driven by curiosity about the outcome rather than learning or hedonic motivation."
+P0074,win,claude-haiku-4-5,1,0,0,0,0,0,"Participant prefers to review the win, motivated by the desire to relive or savor the positive outcome."
+P0076,win,claude-haiku-4-5,0,0,0,0,1,0,"Participant chose to review the win but provided no explanation, suggesting indifference or lack of deliberate reasoning."
+P0077,loss,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the loss to understand their mistake and see how incorrect their prediction was, combining instrumental learning with curiosity about the outcome."
+P0079,win,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the win to learn from it and improve their payoff in future similar situations.
+P0080,win,claude-haiku-4-5,0,1,0,0,0,0,"Participant chose to review the win because they were closer to the correct outcome, indicating an instrumental motivation to understand what made their prediction more accurate."
+P0081,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to learn from mistakes and improve their predictions in the second round.
+P0082,loss,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the loss to see how close they came to winning, combining curiosity about the outcome with instrumental interest in understanding their near-miss."
+P0083,win,claude-haiku-4-5,1,0,1,0,0,0,Participant wants to review the win to experience the positive feeling of a correct prediction and see how it played out.
+P0084,win,claude-haiku-4-5,0,1,0,0,0,0,"Participant wants to review the win to compare their prediction accuracy against their opponent, indicating a learning and improvement motivation."
+P0088,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to learn from their mistake and improve accuracy for better performance in the second round.
+P0089,indifferent,claude-haiku-4-5,0,1,0,0,1,0,"Participant sees both outcomes as equally valuable for feedback purposes, indicating instrumental motivation while expressing indifference between the two options."
+P0095,loss,claude-haiku-4-5,0,0,1,1,0,0,Participant wants to review the loss out of curiosity about the final score and interest in how the Knicks (a strong team) performed in that specific matchup.
+P0097,win,claude-haiku-4-5,0,0,1,0,0,0,"Participant wants to review the win to see how close their prediction was to the actual score, driven by curiosity about the outcome rather than learning or hedonic motivation."
+P0099,win,claude-haiku-4-5,1,0,0,0,0,0,Participant prefers to review the win to enjoy the positive feeling of having guessed correctly.
+P0102,loss,claude-haiku-4-5,0,0,1,0,0,0,"Participant wants to see the outcome details and how close their prediction was, driven by curiosity about the game result rather than learning or improvement."
+P0104,loss,claude-haiku-4-5,0,1,0,0,0,0,"Participant explicitly states they want to review the loss to learn from mistakes and improve, which is a clear instrumental motivation."
+P0106,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to identify and learn from their prediction error.
+P0109,loss,claude-haiku-4-5,0,1,0,0,0,0,"Participant wants to review the loss to understand their prediction error and improve, which is an instrumental motivation."
+P0110,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to adjust their prediction and improve accuracy in the second round.
+P0112,win,claude-haiku-4-5,0,0,0,1,0,0,"Participant chose to review the win because they enjoyed watching the Knicks play, indicating team-based interest rather than hedonic, instrumental, or curiosity motivations."
+P0116,win,claude-haiku-4-5,1,0,0,0,0,0,Participant prefers to review the win purely for the positive feeling of having won.
+P0120,loss,claude-haiku-4-5,0,0,0,1,0,0,"Participant chose to review the loss based on team quality assessment, indicating interest in the specific teams involved rather than hedonic, instrumental, or curiosity motivations."
+P0121,win,claude-haiku-4-5,0,0,1,0,0,0,"Participant wants to see how close their prediction was to the actual outcome, driven by curiosity about the game details rather than learning or hedonic motives."
+P0122,win,claude-haiku-4-5,0,0,0,1,0,0,"Participant chose to review the win because of their fandom for the Mavericks, indicating team-based motivation."
+P0123,win,claude-haiku-4-5,0,1,0,0,0,0,"Participant wants to review the win to analyze their prediction accuracy and margins, suggesting an instrumental learning motivation."
+P0124,win,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the win to understand their opponent's perspective and see how their prediction played out, combining curiosity about the game outcome with instrumental interest in understanding their reasoning."
+P0126,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to identify and learn from their mistake.
+P0128,win,claude-haiku-4-5,1,0,0,0,0,0,Participant chose to review the win to maintain a positive emotional state.
+P0129,win,claude-haiku-4-5,1,1,0,0,0,0,Participant wants to review the win to feel confident (hedonic) and believes this will help them make a closer guess in the second round (instrumental).
+P0130,win,claude-haiku-4-5,0,0,1,1,0,0,Participant wants to review the win because they're familiar with those teams and curious about the live score.
+P0132,win,claude-haiku-4-5,1,0,0,0,0,0,Participant wants to review the win to relive the positive feeling of having made a correct prediction.
+P0133,loss,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the loss to understand the magnitude of their error, combining instrumental learning with curiosity about the outcome."
+P0134,loss,claude-haiku-4-5,0,1,0,0,0,0,"Participant chose to review the loss because they view it as more informative, indicating an instrumental motivation to learn from mistakes."
+P0135,win,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the win to understand their successful prediction, combining curiosity about the outcome with instrumental interest in evaluating their good guess."
+P0136,loss,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the loss to see how far off their prediction was, combining curiosity about the outcome with instrumental interest in understanding their error."
+P0137,win,claude-haiku-4-5,1,0,0,0,0,0,Participant prefers to review the win purely for the positive feeling of having won.
+P0139,loss,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the loss to understand why they were confident but incorrect, combining instrumental learning with curiosity about the discrepancy."
+P0145,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to correct mistakes and improve performance.
+P0146,win,claude-haiku-4-5,1,1,1,0,0,0,"Participant chose the win for both hedonic reasons (earned bonus, positive feeling) and instrumental reasons (learning from successful intuition and calibrating for Round 2), with curiosity about the game flow and margin of victory."
+P0147,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to learn from their incorrect prediction.
+P0148,win,claude-haiku-4-5,1,0,0,0,0,0,Participant prefers to review the win to savor it rather than dwell on the completed loss.
+P0149,win,claude-haiku-4-5,1,0,1,0,0,0,Participant wants to review the win to experience the positive feeling of success and see how the winning prediction played out.
+P0151,loss,claude-haiku-4-5,0,1,0,0,0,0,"Participant wants to reassess their loss to improve performance, indicating an instrumental motivation to learn from mistakes."
+P0153,win,claude-haiku-4-5,1,0,0,0,0,0,Participant prefers to review the win purely for the positive feeling of having won.
+P0154,loss,claude-haiku-4-5,0,0,1,0,0,0,Participant wants to see the margin of their loss out of curiosity about how close their prediction was.
+P0156,win,claude-haiku-4-5,1,0,1,0,0,0,Participant chose the win for both hedonic reasons (wanting to relive the win) and curiosity about how the game unfolded.
+P0158,win,claude-haiku-4-5,0,0,1,0,0,0,Participant wants to review the win out of curiosity about how the game actually unfolded.
+P0159,win,claude-haiku-4-5,0,0,1,0,0,0,Participant wants to see how the correct prediction unfolded out of curiosity about the outcome.
+P0162,loss,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the loss to understand their mistake, learn the margin of error, and improve for the next round."
+P0163,indifferent,claude-haiku-4-5,0,0,1,0,1,0,Participant expresses indifference between win and loss while showing curiosity about seeing the chart/results.
+P0164,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to identify areas for improvement in the second round.
+P0166,win,claude-haiku-4-5,0,0,1,0,0,0,"Participant wants to review the win to see how close their prediction was, driven by curiosity about the outcome rather than learning or hedonic motivation."
+P0167,loss,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the loss to understand how they lost, indicating both curiosity about the game outcome and instrumental motivation to learn from the mistake."
+P0168,win,claude-haiku-4-5,1,0,0,0,0,0,Participant chose the win to experience the positive feeling of having won the matchup.
+P0170,indifferent,claude-haiku-4-5,0,1,0,1,1,0,"Participant expresses no preference but explains their prediction reasoning with reference to team knowledge and performance patterns, suggesting both indifference to reviewing either game and instrumental interest in understanding their prediction logic."
+P0171,loss,claude-haiku-4-5,0,0,1,0,0,0,"Participant wants to review the loss out of curiosity about how the game unfolded, without mentioning learning or improvement."
+P0173,win,claude-haiku-4-5,0,0,0,1,0,0,Participant chose to review the win because of interest in the specific teams (Orlando Magic vs Wizards) and their defensive/offensive capabilities.
+P0174,win,claude-haiku-4-5,0,1,0,0,0,0,"Participant wants to review the win because they made a better prediction, indicating an instrumental motivation to understand what they got right."
+P0175,loss,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the loss to understand how inaccurate their prediction was, combining instrumental learning with curiosity about the outcome."
+P0177,win,claude-haiku-4-5,0,0,0,0,1,0,"Participant chose to review the win but provided no explanation, suggesting indifference or lack of deliberate reasoning."
+P0184,win,claude-haiku-4-5,1,0,0,0,0,0,"Participant prefers to review the win, motivated by the positive feeling of having predicted correctly."
+P0185,loss,claude-haiku-4-5,0,1,0,0,0,0,"Participant wants to review the loss to identify and fix mistakes from their previous selections, demonstrating instrumental motivation to improve despite uncertainty about the benefit."
+P0189,indifferent,claude-haiku-4-5,0,0,0,0,1,0,Participant expresses indifference because reviewing either outcome won't affect their ability to predict the other games in the second round.
+P0190,indifferent,claude-haiku-4-5,0,0,0,0,1,0,"Participant expresses indifference, stating the choice did not make sense to them."
+P0191,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to understand their mistakes and improve accuracy in the second round.
+P0195,indifferent,claude-haiku-4-5,0,0,0,0,1,0,"Participant expresses indifference, stating they don't feel a need to review either game."
+P0196,indifferent,claude-haiku-4-5,0,0,1,0,1,0,Participant expresses indifference while showing curiosity about the graphics/visual presentation of both games.
+P0198,win,claude-haiku-4-5,1,0,0,0,0,0,Participant wants to review the win to feel good and savor the positive outcome.
+P0207,win,claude-haiku-4-5,0,0,1,0,0,0,"Participant wants to review the win to see how their prediction played out, driven by curiosity about the game outcome."
+P0208,win,claude-haiku-4-5,1,0,0,1,0,0,Participant chose the win based on team knowledge and the positive feeling of earning a bonus.
+P0209,win,claude-haiku-4-5,1,0,1,0,0,0,"Participant wants to experience the positive feeling of the win and satisfy curiosity about how they won, while avoiding the negative feeling of revisiting the loss."
+P0211,win,claude-haiku-4-5,0,1,1,0,0,0,Participant wants to review the win to see how close their prediction was and understand the outcome to potentially replicate success in the second round.
+P0213,win,claude-haiku-4-5,1,0,0,0,0,0,Participant wants to review the win to feel good and savor the positive outcome.
+P0217,win,claude-haiku-4-5,1,0,0,0,0,0,Participant wants to review the win to relive the positive feeling of getting it right.
+P0219,indifferent,claude-haiku-4-5,0,0,0,0,1,0,"Participant expresses indifference, stating they are content with the current state and have no preference between reviewing the win or loss."
+P0220,win,claude-haiku-4-5,0,1,0,0,0,0,"Participant chose to review the win because their analysis and understanding of team form (Sacramento Kings) led to that correct prediction, indicating an instrumental focus on validating their analytical approach."
+P0225,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to fix their mistake and improve their accuracy in the second round.
+P0226,loss,claude-haiku-4-5,0,1,0,0,0,0,"Participant wants to review the loss to learn where their intuition failed and understand the prediction gap, which is an instrumental motivation to improve."
+P0227,loss,claude-haiku-4-5,0,0,1,0,0,0,Participant wants to review the loss out of curiosity to find out what the correct answer was.
+P0230,win,claude-haiku-4-5,0,0,1,0,0,0,"Participant wants to see how the winning game unfolded and observe their opponent's predictions, driven by curiosity rather than learning or emotional reasons."
+P0232,loss,claude-haiku-4-5,0,1,0,0,0,0,"Participant wants to review the loss to understand their mistake and compare their prediction to the opponent's, which is a learning/improvement motivation."
+P0233,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant chose to review the loss explicitly to learn from their incorrect prediction and improve.
+P0235,win,claude-haiku-4-5,1,0,1,0,0,0,"Participant wants to review the win to see their winning score, combining hedonic satisfaction with curiosity about the outcome."
+P0237,win,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the win to understand what they did correctly so they can replicate it in the second round.
+P0240,win,claude-haiku-4-5,1,0,0,0,0,0,Participant prefers to review the win purely because they want to experience the positive feeling of having predicted correctly.
+P0241,loss,claude-haiku-4-5,0,1,1,0,0,0,Participant wants to review the loss to learn from their mistake and understand how close their prediction was.
+P0245,loss,claude-haiku-4-5,0,1,1,0,0,0,Participant wants to review the loss to understand their mistake and see how far off their prediction was.
+P0248,win,claude-haiku-4-5,0,0,1,0,0,0,Participant wants to review the winning game out of curiosity to see how close their prediction was to the actual game flow.
+P0250,win,claude-haiku-4-5,1,0,0,0,0,0,Participant prefers to review the win purely for the positive feeling of having won.
+P0251,loss,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the loss to see the actual point differential, combining curiosity about the game outcome with instrumental interest in understanding their prediction error."
+P0253,win,claude-haiku-4-5,0,0,1,1,0,0,Participant wants to watch the win because they follow the Orlando Magic and are interested in seeing that specific team's game.
+P0254,loss,claude-haiku-4-5,0,1,0,0,0,0,"Participant wants to review the loss to clarify their prediction and understand what they actually predicted, which is instrumental for accuracy."
+P0259,loss,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the loss to understand the magnitude of their prediction error, combining instrumental learning with curiosity about the outcome."
+P0260,win,claude-haiku-4-5,1,0,0,1,0,0,Participant prefers the win because of familiarity with the teams and the positive feeling associated with it.
+P0261,win,claude-haiku-4-5,0,1,0,0,0,0,"Participant chose to review the win because they believed their prediction was correct based on basketball knowledge, indicating an instrumental motivation to validate their reasoning."
+P0263,win,claude-haiku-4-5,0,0,1,0,1,0,"Participant chose the win but acknowledged the choice was random, primarily motivated by curiosity about the margin of victory rather than hedonic or instrumental reasons."
+P0264,win,claude-haiku-4-5,1,0,0,0,0,0,Participant prefers to review the win for the positive reinforcement and good feeling associated with being correct.
+P0269,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to learn from the mistake and improve their prediction in the second round.
+P0271,win,claude-haiku-4-5,1,0,0,0,0,0,Participant prefers to review the win because they enjoy the positive feeling of seeing themselves succeed.
+P0272,loss,claude-haiku-4-5,0,1,1,1,0,0,"Participant wants to review the loss to understand how much they underestimated the Knicks' margin of victory, combining curiosity about the game outcome with instrumental interest in learning and team interest in the Knicks."
+P0273,win,claude-haiku-4-5,1,0,0,0,0,0,"Participant prefers to review the win because it resulted in a positive outcome (bonus), reflecting a desire to experience the good feeling associated with success."
+P0274,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to understand their mistake and improve accuracy in the second round.
+P0275,win,claude-haiku-4-5,1,0,0,0,0,0,Participant chose to review the win because they want to experience the positive feeling of having predicted correctly.
+P0285,loss,claude-haiku-4-5,0,0,1,1,0,0,Participant wants to review the loss out of curiosity about how the game unfolded and interest in the team's performance during a specific season.
+P0286,win,claude-haiku-4-5,1,0,0,0,0,0,Participant chose to review the win because they want to relive the positive feeling of winning and the satisfaction of a clear-cut correct prediction.
+P0289,loss,claude-haiku-4-5,0,1,1,1,0,0,"Participant wants to review the loss to understand the volatile Clippers-Warriors matchup and learn about their prediction, showing both curiosity about game outcomes and instrumental motivation to improve understanding."
+P0293,win,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the win to understand their correct prediction and improve future accuracy.
+P0295,win,claude-haiku-4-5,0,0,0,1,0,0,"Participant chose to review the win based on team preference/fandom for the Knicks rather than hedonic, learning, or curiosity motivations."
+P0296,loss,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the loss to understand how inaccurate their prediction was, combining curiosity about the outcome with instrumental motivation to assess their error."
+P0297,win,claude-haiku-4-5,1,1,0,0,0,0,Participant prefers reviewing the win both for the positive feeling of being correct and to understand what made their prediction accurate.
+P0299,win,claude-haiku-4-5,1,0,0,0,0,0,"Participant wants to review the win to feel good about earning the bonus, which is a hedonic motivation."
+P0300,win,claude-haiku-4-5,0,0,1,0,0,0,"Participant wants to review the win to see how close their prediction was, driven by curiosity about the outcome rather than learning or hedonic motivation."
+P0303,indifferent,claude-haiku-4-5,0,0,0,0,1,0,Participant expresses indifference by stating they have no preference and chose not to reveal which game they would prefer.
+P0304,loss,claude-haiku-4-5,0,1,0,0,0,0,"Participant wants to review the loss because they relied on guessing rather than confidence, indicating an instrumental motivation to understand and improve their prediction method."
+P0305,win,claude-haiku-4-5,0,0,1,0,0,0,"Participant wants to review the win to see how close their prediction was, driven by curiosity about the outcome rather than learning or hedonic motivation."
+P0306,loss,claude-haiku-4-5,0,1,0,0,0,0,"Participant wants to review the loss to improve their prediction and achieve a win in the second round, demonstrating instrumental motivation to do better."
+P0308,win,claude-haiku-4-5,1,0,0,0,0,0,"Participant prefers to review the win because it feels more positive and memorable, reflecting a desire to savor the positive experience."
+P0309,win,claude-haiku-4-5,1,0,0,0,0,0,Participant wants to review the win to experience positive feelings and savor their successful prediction.
+P0311,win,claude-haiku-4-5,0,0,0,1,0,0,"Participant chose to review the win based on team-specific knowledge about the Wizards being a weak team, suggesting interest in the matchup itself rather than hedonic, learning, or curiosity motivations."
+P0316,win,claude-haiku-4-5,0,0,1,0,0,0,"Participant wants to review the win to see how close their prediction was to the actual score, driven by curiosity about the outcome rather than learning or hedonic motivation."
+P0318,win,claude-haiku-4-5,1,0,0,0,0,1,"Participant chose to review the win, likely for hedonic reasons (wanting to feel good), though the explanation is unclear and may involve other factors."
+P0319,win,claude-haiku-4-5,0,0,0,1,0,0,Participant chose to review the win because they have greater familiarity with those specific teams.
+P0321,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to identify mistakes and improve their prediction accuracy in the second round.
+P0323,loss,claude-haiku-4-5,0,0,1,0,0,0,Participant wants to see how the game unfolded without stating a learning or improvement purpose.
+P0325,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant explicitly states they want to review the loss to learn from their mistake and improve accuracy in the next round.
+P0331,loss,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the loss to understand how close they were and potentially learn from the mistake, combining instrumental motivation with curiosity about the outcome."
+P0334,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant chose to review the loss specifically to gain insight and apply learnings to improve second round predictions.
+P0337,win,claude-haiku-4-5,0,0,1,0,0,0,"Participant chose the win primarily out of curiosity to see the game flow and verify their correct guess, explicitly acknowledging this curiosity bias."
+P0341,win,claude-haiku-4-5,0,0,1,1,0,0,Participant wants to review the win out of curiosity about how the game unfolded and interest in team records/matchup dynamics.
+P0342,win,claude-haiku-4-5,1,0,0,0,0,0,Participant wants to review the win to relive or savor the positive outcome.
+P0345,loss,claude-haiku-4-5,0,0,1,0,0,0,Participant wants to see how the game they predicted incorrectly actually unfolded out of curiosity about the correct answer.
+P0348,win,claude-haiku-4-5,0,0,0,1,0,0,"Participant chose to review the win based on their love of NBA, indicating team/fandom interest rather than hedonic, learning, or curiosity motivations."
+P0350,loss,claude-haiku-4-5,0,0,1,0,0,0,"Participant wants to see how the loss unfolded out of curiosity about the game outcome, without mentioning learning or improvement."
+P0352,win,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to understand the reasons behind their successful prediction to inform future accuracy.
+P0353,loss,claude-haiku-4-5,0,1,0,0,0,0,"Participant wants to review the loss to improve performance and earn the bonus in the second round, which is an instrumental motivation to do better."
+P0354,indifferent,claude-haiku-4-5,0,0,0,0,1,0,Participant explicitly states they have no preference and that reviewing either game would not affect their bonus outcome.
+P0355,win,claude-haiku-4-5,1,0,0,0,0,0,Participant wants to review the win to relive the positive experience of winning a bonus.
+P0357,win,claude-haiku-4-5,0,0,1,0,0,0,"Participant wants to see how their prediction played out in the game, driven by curiosity about the outcome rather than learning or hedonic motivation."
+P0359,indifferent,claude-haiku-4-5,0,0,0,0,1,0,"Participant expresses indifference, stating the choice between reviewing the win or loss is essentially random with no meaningful difference."
+P0362,loss,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the loss to understand the game flow and final margin in order to correct estimation errors for the next round, combining curiosity about how the game unfolded with an instrumental goal of improving accuracy."
+P0369,win,claude-haiku-4-5,1,0,0,0,0,0,"Participant prefers to review the win, motivated by the desire to feel good and savor the positive outcome."
+P0370,loss,claude-haiku-4-5,0,1,0,0,0,0,"Participant wants to review the loss to understand why they incorrectly predicted Orlando as winners despite them being the better team, indicating a learning/improvement motivation."
+P0374,win,claude-haiku-4-5,1,0,0,0,0,0,Participant wants to review the win to experience the positive feeling of having won the bonus.
+P0375,win,claude-haiku-4-5,0,0,1,1,0,0,"Participant wants to review the win out of curiosity about the game outcome and margin, combined with interest in the specific teams involved (Suns vs. Kings)."
+P0378,loss,claude-haiku-4-5,0,1,0,1,0,0,Participant wants to review the loss to understand their incorrect prediction (instrumental) and is motivated by interest in the Knicks as a fan (team).
+P0383,win,claude-haiku-4-5,0,0,1,1,0,0,Participant wants to review the win out of curiosity about how the game unfolded given the specific team circumstances (Clippers' home strength and Warriors' injuries).
+P0385,win,claude-haiku-4-5,0,0,1,0,0,0,"Participant wants to see how the winning game unfolded out of curiosity, without mentioning learning or feeling good."
+P0387,loss,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the loss to understand how inaccurate their prediction was, combining instrumental learning with curiosity about the actual outcome."
+P0388,loss,claude-haiku-4-5,0,1,0,0,0,0,"Participant wants to review the loss to understand how far off their prediction was, indicating a learning/improvement motivation."
+P0391,loss,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the loss to clarify their memory of that specific pick and understand what they predicted, combining curiosity about the game details with instrumental interest in recalling their own prediction."
+P0393,win,claude-haiku-4-5,1,0,0,0,1,0,"Participant chose the win but attributes the choice to a hunch rather than any deliberate reason, suggesting indifference combined with a hedonic lean toward the positive outcome."
+P0394,loss,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the loss to understand their mistake and improve predictions in round two, while also satisfying curiosity about how the game unfolded."
+P0401,win,claude-haiku-4-5,0,0,1,0,0,0,"Participant wants to see how close their prediction was to the actual outcome, driven by curiosity about the game result rather than learning or hedonic motivation."
+P0405,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to learn from their mistake and improve their intuition for the next round.
+P0415,win,claude-haiku-4-5,0,0,1,0,0,0,Participant wants to review the win to see how the game unfolded and confirm their reasoning about the home game advantage.
+P0416,win,claude-haiku-4-5,0,0,1,0,0,0,"Participant wants to see how close their guess was to the actual final margin, which is curiosity about the outcome without a stated learning purpose."
+P0417,win,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the win to assess how close their prediction was, combining curiosity about the outcome with instrumental interest in understanding their accuracy."
+P0419,win,claude-haiku-4-5,0,0,1,1,0,0,Participant wants to review the win out of curiosity about how the game unfolded and interest in the specific teams involved (Orlando vs. Wizards).
+P0426,win,claude-haiku-4-5,1,1,0,0,0,0,Participant wants to review the win both to feel good about being right and to reinforce their correct thinking for the second round.
+P0428,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant prefers reviewing the loss because it makes logical sense to learn from mistakes rather than dwell on successes.
+P0432,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to understand their mistake and improve for the next round.
+P0433,loss,claude-haiku-4-5,0,0,0,0,1,0,"Participant expresses a preference for reviewing the loss but provides no substantive reason, indicating indifference or lack of clear motivation."
+P0436,indifferent,claude-haiku-4-5,0,0,0,0,1,0,Participant explicitly states they have no preference between reviewing the win or loss.
+P0438,win,claude-haiku-4-5,0,1,0,0,0,0,"Participant wants to review the win because it relates to earning a bonus, indicating an instrumental motivation to understand what led to success."
+P0439,loss,claude-haiku-4-5,0,1,0,0,1,0,"Participant chose to review the loss but gave a vague, non-committal explanation suggesting indifference or uncertainty about their own reasoning."
+P0441,win,claude-haiku-4-5,0,0,0,1,0,0,"Participant chose to review the win based on team strength assessment, indicating team-based reasoning."
+P0444,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to understand their mistake and improve for the second round.
+P0449,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to gather information for making a correction in the second round.
+P0453,win,claude-haiku-4-5,1,0,0,1,0,0,Participant chose the win to enjoy the bonus reward (hedonic) and because they have more knowledge about the Knicks specifically (team interest).
+P0455,loss,claude-haiku-4-5,0,0,1,0,0,0,"Participant wants to see the methods used in the lost game, driven by curiosity about how the game unfolded."
+P0457,win,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the win to understand why their prediction was accurate and close to the actual margin.
+P0462,indifferent,claude-haiku-4-5,0,0,0,0,1,0,Participant expresses genuine indifference between the two options and indicates they would ideally view both games.
+P0464,indifferent,claude-haiku-4-5,0,0,0,0,1,0,"Participant expresses no preference due to lack of familiarity with the teams, indicating indifference to reviewing either game."
+P0465,win,claude-haiku-4-5,1,0,0,0,0,0,Participant prefers to review the win because they want to experience the positive feeling of having won.
+P0466,indifferent,claude-haiku-4-5,0,0,0,0,1,0,Participant explicitly states they have no strong preference between reviewing the win or loss.
+P0467,win,claude-haiku-4-5,1,1,0,0,0,0,Participant wants to review the win both to savor the successful result and bonus (hedonic) and to understand why their accurate prediction worked (instrumental).
+P0469,win,claude-haiku-4-5,1,0,0,0,0,0,Participant wants to review the win to savor the positive outcome and the bonus reward they earned.
+P0471,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to understand their prediction error and improve accuracy by comparing their margin guess to the actual result.
+P0473,loss,claude-haiku-4-5,0,1,0,0,0,0,"Participant wants to review the loss to try a different prediction strategy in the second round, demonstrating instrumental motivation to improve."
+P0474,win,claude-haiku-4-5,0,0,1,0,0,0,"Participant wants to review the win to see how close their uncertain guess was to the actual score, driven by curiosity rather than learning or improvement."
+P0476,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to identify and learn from their mistake.
+P0477,loss,claude-haiku-4-5,0,1,0,0,0,0,"Participant explicitly states desire to learn from mistakes, which is a clear instrumental motivation."
+P0479,win,claude-haiku-4-5,1,1,0,0,0,0,Participant wants to review the win both to learn what they did right (instrumental) and to feel proud and confident (hedonic).
+P0481,win,claude-haiku-4-5,1,0,0,0,0,0,Participant wants to review the win to experience the positive feeling of seeing their correct prediction ('green').
+P0483,loss,claude-haiku-4-5,0,1,0,0,0,0,"Participant wants to review the loss to understand their mistake and improve, rejecting the alternative of reviewing the win as unproductive."
+P0486,win,claude-haiku-4-5,1,0,0,0,0,0,"Participant wants to review the win because they won, indicating a desire to relive or savor the positive outcome."
+P0487,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to identify and learn from their prediction mistake.
+P0488,loss,claude-haiku-4-5,0,1,1,0,0,0,Participant wants to review the loss to understand how close they were (curiosity) and to learn from the game they were most uncertain about (instrumental learning).
+P0494,loss,claude-haiku-4-5,0,1,1,1,0,0,Participant wants to review the loss to understand how far off their prediction was and to improve their evaluation of the teams for the next round.
+P0497,win,claude-haiku-4-5,1,0,1,0,0,0,"Participant wants to review the win out of interest in seeing how their successful prediction played out, combining hedonic satisfaction with curiosity about the outcome."
+P0498,win,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the win to understand how they succeeded, combining curiosity about the game outcome with instrumental interest in understanding their correct prediction."
+P0505,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to identify and learn from their mistake in order to improve their predictions.
+P0506,win,claude-haiku-4-5,1,0,0,0,0,0,Participant explicitly chose the win to experience positive feelings and avoid negative feelings from confronting the loss.
+P0507,loss,claude-haiku-4-5,0,1,0,0,0,0,"Participant wants to understand the reason for their loss, which is an instrumental motivation to learn from mistakes."
+P0510,loss,claude-haiku-4-5,0,0,0,0,1,0,"Participant chose the loss based on instinct without articulating a specific reason, suggesting indifference to the choice."
+P0511,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to improve their predictions and increase chances of winning in the second round.
+P0513,loss,claude-haiku-4-5,0,1,0,0,0,0,"Participant wants to review the loss to understand why the unexpected outcome occurred, indicating a learning/instrumental motivation."
+P0518,loss,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the loss to understand the margin/outcome and see what they missed, combining instrumental learning with curiosity about the game details."
+P0520,win,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the win to understand why their prediction was correct, combining curiosity about the outcome with instrumental interest in understanding their successful reasoning."
+P0522,win,claude-haiku-4-5,0,0,1,0,0,0,"Participant wants to review the win to see how close their prediction was, driven by curiosity about the outcome rather than learning or hedonic motivation."
+P0523,loss,claude-haiku-4-5,0,1,1,1,0,0,"Participant wants to review the loss to understand why the Kings (a weaker team) lost badly, showing interest in learning from the mistake while also demonstrating team knowledge and curiosity about the game outcome."
+P0527,win,claude-haiku-4-5,0,0,1,0,0,0,"Participant wants to see how the game unfolded and what the outcome was, driven by curiosity rather than learning or hedonic motivation."
+P0531,loss,claude-haiku-4-5,0,1,0,0,0,0,"Participant wants to review the loss to gain information and understand where they went wrong, reflecting an instrumental motivation to improve."
+P0533,loss,claude-haiku-4-5,0,0,1,1,0,0,Participant wants to review the loss out of curiosity about how close the game was and interest in the team matchup between the Raptors and Knicks.
+P0534,win,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the win to see how well they performed, combining curiosity about the outcome with instrumental interest in evaluating their prediction accuracy."
+P0536,win,claude-haiku-4-5,0,0,1,0,0,0,"Participant wants to see how the game unfolded and check the score flow out of curiosity, with the bonus win providing context but not a stated learning or improvement motive."
+P0538,win,claude-haiku-4-5,1,0,0,0,0,0,Participant chose the win primarily to feel good about their successful prediction and the satisfaction of being closer than their opponent.
+P0544,indifferent,claude-haiku-4-5,0,0,1,1,1,0,Participant expresses genuine indifference while citing curiosity about the games and interest as an NBA fan.
+P0548,win,claude-haiku-4-5,1,0,0,0,0,0,"Participant prefers to review the win because it felt good and resulted in earning a bonus, which is a hedonic motivation."
+P0549,win,claude-haiku-4-5,0,0,1,0,0,0,"Participant wants to review the win to see how close their prediction was, driven by curiosity about the outcome rather than learning or hedonic motivation."
+P0552,indifferent,claude-haiku-4-5,0,0,0,0,1,0,"Participant explicitly states they have no preference and wouldn't care either way, indicating indifference to reviewing wins or losses."
+P0555,win,claude-haiku-4-5,1,0,0,0,0,0,Participant prefers to review the win for the positive feeling of reliving success rather than confronting failure.
+P0559,win,claude-haiku-4-5,0,1,0,1,0,0,"Participant chose the win and explained their reasoning by referencing team context (playoff status), showing both instrumental interest in understanding their prediction basis and team-specific knowledge."
+P0561,win,claude-haiku-4-5,0,1,0,0,0,0,"Participant wants to review the win to avoid confronting a mistake they made, which is instrumental motivation to understand their error and potentially improve."
+P0563,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to identify and learn from their mistake.
+P0564,win,claude-haiku-4-5,0,0,1,0,0,0,Participant wants to see the outcome of their correct prediction out of curiosity about how accurate their guess was.
+P0566,win,claude-haiku-4-5,1,0,0,0,0,0,"Participant prefers to review the win because it feels good and they earned a bonus, which is a hedonic motivation."
+P0567,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to correct their prediction and improve their overall entry for the next round.
+P0569,win,claude-haiku-4-5,0,0,0,1,0,0,Participant chose to review the win based on team knowledge/fandom regarding the Wizards' typical performance.
+P0571,loss,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the loss to understand the extent of their error, combining instrumental learning with curiosity about the outcome."
+P0573,win,claude-haiku-4-5,0,1,0,0,0,0,"Participant wants to review the win to assess their prediction accuracy, which is an instrumental learning goal."
+P0576,indifferent,claude-haiku-4-5,0,0,1,1,1,0,Participant expresses indifference to the choice while showing curiosity about margin of error and team-specific interest in the Warriors based on past viewing habits.
+P0582,win,claude-haiku-4-5,1,0,1,1,0,0,"Participant wants to savor the win (hedonic), see how the game unfolded (curiosity), and is motivated by fandom for the Knicks (team)."
+P0584,win,claude-haiku-4-5,1,0,0,0,0,0,Participant wants to review the win to experience the positive feeling of having won and earned a bonus.
+P0585,loss,claude-haiku-4-5,0,1,0,0,0,0,"Participant wants to review the loss to understand and learn from their failure, which is an instrumental motivation to improve."
+P0586,win,claude-haiku-4-5,0,0,1,0,0,0,Participant wants to see how close their prediction was to the actual score margin out of curiosity about the game outcome.
+P0590,win,claude-haiku-4-5,1,0,0,0,0,0,Participant prefers to review the win because they want to experience the positive feeling of having predicted correctly.
+P0591,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant chose to review the loss specifically to understand their prediction error and improve accuracy in the second round.
+P0593,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to learn what they got wrong and verify their assumption about the game outcome.
+P0594,loss,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the loss to understand how their prediction differed from the actual result, combining curiosity about game flow with instrumental interest in analyzing their mistake."
+P0595,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to identify and learn from their prediction error.
+P0596,loss,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the loss to see how inaccurate their prediction was, combining curiosity about the outcome with an instrumental desire to understand their error."
+P0597,loss,claude-haiku-4-5,0,0,0,0,1,0,"Participant provides no substantive reason for their choice, suggesting indifference or lack of motivation to explain their preference."
+P0598,loss,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the loss to understand how their prediction compared to the actual outcome, showing both curiosity about the game result and instrumental interest in examining their forecasting accuracy."
+P0609,win,claude-haiku-4-5,1,0,0,0,0,0,"Participant prefers to review the win because it resulted in a bonus reward, reflecting hedonic motivation to relive a positive outcome."
+P0612,win,claude-haiku-4-5,0,0,1,0,0,0,Participant wants to see the outcome of their winning prediction out of curiosity about how the game unfolded.
+P0616,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant chose the loss specifically to identify mistakes in their estimate and improve their accuracy in the second round.
+P0617,loss,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the loss out of curiosity about how far off their prediction was, with an instrumental goal of improving accuracy in the second round."
+P0618,indifferent,claude-haiku-4-5,0,0,1,0,1,0,"Participant expresses equal interest in reviewing either game without a clear preference, indicating both curiosity about the outcomes and indifference between the two options."
+P0619,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant chose to review the loss explicitly to learn from their mistake and improve performance in the second round.
+P0620,loss,claude-haiku-4-5,0,0,1,0,0,0,"Participant wants to see how the lost game unfolded, driven by curiosity about the outcome rather than learning or hedonic motivation."
+P0624,win,claude-haiku-4-5,1,0,0,1,0,0,Participant wants to review the win for both hedonic reasons (enjoying the successful prediction) and team-related reasons (familiarity with teams based on location).
+P0625,loss,claude-haiku-4-5,0,0,1,1,0,0,Participant wants to review the loss out of curiosity about how the game unfolded and shows interest in the specific teams involved (Knicks vs. Raptors).
+P0627,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to understand how far off their prediction was and improve accuracy.
+P0628,loss,claude-haiku-4-5,0,0,1,1,0,0,"Participant wants to review the loss to see how the Raptors vs Knicks game unfolded, showing curiosity about the game outcome combined with interest in that specific matchup."
+P0632,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to learn from the mistake and improve their prediction in the second round.
+P0635,win,claude-haiku-4-5,0,0,0,1,0,0,"Participant chose to review the win because of interest in the home team's advantage, indicating team-based motivation."
+P0636,loss,claude-haiku-4-5,0,0,0,1,0,0,"Participant chose to review the loss based on their assessment of team quality, indicating interest in the specific teams involved."
+P0637,win,claude-haiku-4-5,0,0,1,0,0,0,Participant wants to review the win out of curiosity about how accurate their prediction was relative to the actual game outcome.
+P0638,win,claude-haiku-4-5,0,0,1,1,0,0,Participant wants to review the win out of curiosity about how the game unfolded and interest in the Knicks team.
+P0642,win,claude-haiku-4-5,1,0,0,0,0,0,"Participant chose to review the win because it felt good, a purely hedonic motivation."
+P0644,win,claude-haiku-4-5,0,0,1,0,0,0,"Participant wants to see how their correct prediction played out, driven by curiosity about the outcome rather than learning or hedonic motivation."
+P0645,win,claude-haiku-4-5,1,1,1,0,0,0,"Participant wants to savor the win and feel good about earning the bonus (hedonic), while also analyzing their successful prediction strategy to understand what worked (instrumental), and is interested in seeing how the game unfolded compared to expectations (curiosity)."
+P0646,win,claude-haiku-4-5,0,0,1,0,0,0,"Participant wants to see how the winning game unfolded out of curiosity, without mentioning learning or feeling good."
+P0648,loss,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the loss to learn the correct score, combining instrumental motivation (understanding the mistake) with curiosity about the game outcome."
+P0649,indifferent,claude-haiku-4-5,0,0,0,0,1,0,"Participant expressed no preference and stated they did not want to review either game, indicating indifference to the choice."
+P0651,loss,claude-haiku-4-5,0,0,1,1,0,0,"Participant wants to watch the loss to see the Pelicans play, driven by curiosity about the team and limited familiarity with them."
+P0652,win,claude-haiku-4-5,1,0,0,1,0,0,Participant prefers to review the win and justifies it with team knowledge/fandom (belief that Knicks are better than Raptors).
+P0654,win,claude-haiku-4-5,1,0,0,0,0,0,Participant wants to review the win to relive the positive feeling of earning a bonus.
+P0657,win,claude-haiku-4-5,0,1,1,0,0,0,"Participant chose the win to understand what they got right and compare their prediction to the actual outcome, combining instrumental learning goals with curiosity about the game flow."
+P0658,indifferent,claude-haiku-4-5,0,0,0,0,1,0,"Participant believes their performance in the second round would be unaffected by which game they review, indicating indifference to the choice."
+P0659,loss,claude-haiku-4-5,0,0,0,1,0,0,Participant chose to review the loss based on team knowledge about Dallas's strength that season.
+P0662,loss,claude-haiku-4-5,0,0,1,0,0,0,Participant wants to review the loss to satisfy curiosity about whether their intuition was accurate in an unpredictable matchup.
+P0663,win,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the win to see how well their prediction performed, combining curiosity about the outcome with instrumental interest in evaluating their predictive accuracy."
+P0665,win,claude-haiku-4-5,1,1,0,0,0,0,"Participant wants to experience the positive feeling of the win first, then use it to improve their predictions in the second round."
+P0667,win,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the win to understand game flow better and learn from a closer prediction, combining instrumental learning goals with curiosity about how the game unfolded."
+P0669,win,claude-haiku-4-5,1,0,0,0,0,0,Participant prefers to review the win because they want to experience the positive feeling of having predicted correctly.
+P0672,indifferent,claude-haiku-4-5,0,0,1,0,1,0,Participant expresses indifference between the two games while showing curiosity about the visual representation of the chart.
+P0674,win,claude-haiku-4-5,1,0,0,0,0,0,Participant prefers to review the win purely for the hedonic pleasure of reliving the successful prediction.
+P0678,win,claude-haiku-4-5,1,0,0,0,0,0,"Participant chose to review the win because it felt more positive, indicating a hedonic motivation to experience good feelings."
+P0681,loss,claude-haiku-4-5,0,0,1,0,0,0,Participant wants to review the loss to satisfy curiosity about how close their prediction was to the actual outcome.
+P0684,indifferent,claude-haiku-4-5,0,0,1,0,1,0,"Participant found both games interesting but expressed indifference about which to review, indicating curiosity about the games themselves without a strong preference."
+P0685,loss,claude-haiku-4-5,0,1,0,1,0,0,"Participant wants to review the loss to learn about unfamiliar teams' playing styles, combining instrumental motivation (understanding their mistake) with team-related curiosity."
+P0686,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to identify and learn from their prediction error.
+P0687,win,claude-haiku-4-5,0,0,0,1,0,0,Participant chose to review the win because of interest in the LA team based on positive prior reputation.
+P0688,win,claude-haiku-4-5,1,0,0,0,0,0,Participant chose to review the win because it provides positive feelings and satisfaction.
+P0689,win,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the win to understand what made them successful and apply that knowledge to improve future predictions.
+P0694,win,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to learn from mistakes and improve their guessing accuracy in the second round.
+P0695,win,claude-haiku-4-5,1,0,0,0,0,0,Participant chose to review the win primarily for the positive feeling of having predicted correctly.
+P0699,win,claude-haiku-4-5,0,0,1,0,0,0,"Participant wants to see how close their prediction was to the actual outcome, driven by curiosity about the game result rather than learning or hedonic motivation."
+P0700,win,claude-haiku-4-5,1,0,0,0,0,0,Participant prefers to review the win purely for the hedonic pleasure of reliving a successful prediction.
+P0701,win,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the win to check accuracy and compare predictions, combining instrumental learning goals with curiosity about the outcome details."
+P0703,win,claude-haiku-4-5,1,0,1,1,0,0,"Participant prefers the win for hedonic reasons (won bonus), curiosity about how the game unfolded, and team interest in the Magic specifically."
+P0707,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to assess their performance and identify areas where they underperformed.
+P0710,indifferent,claude-haiku-4-5,0,0,0,0,1,0,"Participant indicates their response was accidental, reflecting indifference to the choice."
+P0711,win,claude-haiku-4-5,0,0,1,1,0,0,Participant wants to review the win out of curiosity about how the game unfolded and interest in the specific teams/matchup (Golden State's status as a powerhouse).
+P0712,win,claude-haiku-4-5,1,0,0,0,0,0,Participant wants to review the win to relive or savor the positive feeling of having predicted correctly.
+P0714,win,claude-haiku-4-5,1,0,0,1,0,0,Participant wants to relive the positive feeling of winning and expresses dislike for the opposing team (Raptors).
+P0715,loss,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the loss to examine the score progression and final margin, combining instrumental learning with curiosity about how the game unfolded."
+P0716,loss,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the loss to understand the margin of error, combining curiosity about the game outcome with instrumental interest in assessing their prediction accuracy."
+P0717,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to improve their decision-making and earn a bonus in the second round.
+P0718,loss,claude-haiku-4-5,0,1,0,1,0,0,"Participant wants to review the loss to learn from mistakes and improve accuracy in round two (instrumental), and mentions familiarity with Western Conference teams (team)."
+P0719,loss,claude-haiku-4-5,0,0,1,1,0,0,Participant wants to see the margin of loss (curiosity) and references team knowledge about the Mavericks-Pelicans matchup (team).
+P0720,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to identify and change an incorrect prediction for better performance in the second round.
+P0722,win,claude-haiku-4-5,0,0,1,0,0,0,Participant wants to see the outcome details of their winning game out of curiosity about the margin of victory.
+P0723,loss,claude-haiku-4-5,0,1,0,1,0,0,"Participant wants to review the loss to understand why their prediction about the Mavericks' superiority was wrong, combining instrumental learning with team-specific knowledge."
+P0725,win,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the win to see how well they performed, combining curiosity about the outcome with instrumental interest in evaluating their accuracy."
+P0727,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to learn from the mistake and improve their prediction in the second round.
+P0729,loss,claude-haiku-4-5,0,1,0,0,0,0,"Participant wants to review the loss to understand why they lost, indicating an instrumental motivation to learn from the mistake."
+P0731,win,claude-haiku-4-5,1,1,0,0,0,0,"Participant wants to review the win both for the positive feeling of having won (hedonic) and to examine how close their prediction was, suggesting a learning/improvement motivation (instrumental)."
+P0732,win,claude-haiku-4-5,0,0,1,0,0,0,Participant wants to review the win out of curiosity to see how the game unfolded and how their prediction was correct.
+P0735,indifferent,claude-haiku-4-5,1,0,1,0,1,0,Participant expresses indifference while citing hedonic enjoyment of game excitement and curiosity about the game itself.
+P0738,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to understand their mistake and improve their predictions in the next round.
+P0739,loss,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the loss to understand how incorrect their prediction was, combining instrumental learning with curiosity about the game outcome."
+P0740,win,claude-haiku-4-5,1,0,0,0,0,0,"Participant prefers to review the win because it resulted in earning a bonus, which is a hedonic motivation to relive a positive outcome."
+P0742,win,claude-haiku-4-5,0,0,0,1,0,0,Participant chose to review the win based on team knowledge/assumption about the Knicks' quality.
+P0744,loss,claude-haiku-4-5,0,1,0,0,0,0,"Participant wants to review the loss to understand why their prediction was incorrect, which is an instrumental learning goal."
+P0745,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to identify mistakes and improve accuracy in the second round.
+P0750,loss,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the loss to understand their mistake and see how inaccurate their prediction was, combining instrumental learning goals with curiosity about the outcome."
+P0753,loss,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the loss to understand why the prediction failed, combining curiosity about the game outcome with an instrumental goal of learning from the mistake."
+P0754,win,claude-haiku-4-5,0,0,1,0,0,0,Participant wants to see how the winning game unfolded out of curiosity about the match they predicted correctly.
+P0755,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to improve their prediction accuracy in the second round.
+P0757,indifferent,claude-haiku-4-5,0,0,0,0,1,0,"Participant expresses indifference, stating that reviewing either game would not provide meaningful insight."
+P0758,loss,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the loss to understand the magnitude of their prediction error, combining instrumental learning with curiosity about the outcome."
+P0759,loss,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the loss to understand the margin of defeat, combining curiosity about the game outcome with instrumental interest in analyzing their prediction error."
+P0761,win,claude-haiku-4-5,0,0,0,1,0,0,"Participant chose to review the win because they are a fan of the Orlando Magic, indicating team-based interest rather than hedonic, instrumental, or curiosity motivations."
+P0765,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to identify and learn from their mistake (guessing too high or wrong team) to improve accuracy in the second round.
+P0766,loss,claude-haiku-4-5,0,1,1,1,0,0,"Participant wants to understand why their prediction was off (instrumental), is curious about the game outcome (curiosity), and mentions knowing the teams better (team interest)."
+P0767,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to study their mistakes and improve on weaker areas for better performance.
+P0768,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to understand their prediction error and improve accuracy.
+P0772,win,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the win to understand how the prediction played out and assess accuracy, combining curiosity about the game outcome with instrumental learning goals."
+P0773,win,claude-haiku-4-5,0,0,1,1,0,0,Participant wants to review the win out of curiosity about how the game unfolded and interest in the specific teams/matchup based on their knowledge of the Wizards and Magic.
+P0776,win,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the win to learn the actual score, which they explicitly state will help improve future predictions."
+P0777,loss,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the loss to understand how far off their prediction was and where they went wrong, combining curiosity about the game outcome with instrumental motivation to learn from the mistake."
+P0782,win,claude-haiku-4-5,1,0,0,0,0,0,"Participant prefers to review the win purely for the positive feeling of having won, without mentioning learning or improvement."
+P0785,win,claude-haiku-4-5,0,0,1,0,0,0,Participant wants to review the win to see how their gut instinct played out in the actual game outcome.
+P0787,loss,claude-haiku-4-5,0,0,1,0,0,0,Participant wants to review the loss out of curiosity about how close their prediction was to the actual game outcome.
+P0788,loss,claude-haiku-4-5,0,1,0,0,0,0,"The participant prefers to review the loss, suggesting an instrumental motivation to learn from mistakes and improve performance."
+P0790,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to learn from their mistake and understand what went wrong.
+P0794,loss,claude-haiku-4-5,0,1,0,0,0,0,"Participant wants to understand why their prediction was incorrect, which is an instrumental learning motivation."
+P0795,win,claude-haiku-4-5,1,0,0,0,0,0,Participant prefers to review the win purely for the positive feeling of reliving their successful prediction.
+P0796,loss,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the loss to check if the margin was closer than expected, combining curiosity about the actual outcome with instrumental interest in understanding their prediction accuracy."
+P0797,win,claude-haiku-4-5,0,0,1,0,0,0,"Participant wants to see how the game unfolded in the game they predicted correctly, driven by curiosity about the game flow rather than learning or hedonic motivation."
+P0799,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to identify and fix their mistake for better performance in the second round.
+P0800,win,claude-haiku-4-5,0,0,1,0,0,0,"Participant wants to see how close their winning prediction was, driven by curiosity about the outcome rather than learning or hedonic motivation."
+P0804,win,claude-haiku-4-5,1,0,0,0,0,0,Participant prefers to review the win purely for the hedonic pleasure of reliving the successful prediction.
+P0808,win,claude-haiku-4-5,0,0,1,0,0,0,Participant wants to review the win out of curiosity about whether they actually watched the game or to see how it unfolded.
+P0810,win,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the win to improve their predictive accuracy for the second round by better understanding the margin of victory.
+P0813,win,claude-haiku-4-5,1,1,0,0,0,0,"Participant prefers reviewing the win because it feels easier, combining hedonic appeal (positive feeling) with instrumental motivation (expecting it to be simpler for the second round)."
+P0819,indifferent,claude-haiku-4-5,0,0,0,0,1,0,Participant explicitly states they have no preference between reviewing the win or loss.
+P0820,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to identify and learn from their mistake in order to improve.
+P0824,win,claude-haiku-4-5,1,1,0,0,0,0,"Participant wants to review the win for both hedonic reasons (preferred seeing the win) and instrumental reasons (believed it was easier to predict, suggesting interest in understanding predictability)."
+P0825,indifferent,claude-haiku-4-5,0,0,0,0,1,0,Participant explicitly states they have no strong preference between reviewing the win or loss.
+P0827,win,claude-haiku-4-5,0,0,1,1,0,0,"Participant wants to review the win out of curiosity about how accurate their prediction was for a team they follow (Sacramento Kings), combining curiosity about the outcome with team interest."
+P0828,win,claude-haiku-4-5,0,0,1,0,0,0,"Participant wants to review the win to see how close their prediction was to the actual outcome, driven by curiosity about the game result rather than learning or hedonic motives."
+P0835,indifferent,claude-haiku-4-5,0,0,1,0,1,0,"Participant wants to see the results out of curiosity but explicitly states no preference between win or loss, indicating indifference to the outcome."
+P0836,indifferent,claude-haiku-4-5,0,0,1,1,1,0,"Participant expressed indifference but revealed they actually wanted to review the Mavericks game out of curiosity/team interest, though they accidentally selected no preference."
+P0838,win,claude-haiku-4-5,1,0,0,0,0,0,Participant wants to review the win to relive the positive feeling of getting it correct.
+P0839,loss,claude-haiku-4-5,0,0,1,0,0,0,"Participant wants to review the loss out of curiosity about how the game unfolded, without mentioning learning or improvement."
+P0842,loss,claude-haiku-4-5,0,0,1,0,0,0,"Participant wants to see the outcome details of their loss out of curiosity about the margin, without mentioning learning or improvement."
+P0846,win,claude-haiku-4-5,1,0,1,0,0,0,Participant wants to relive the positive experience of a correct prediction and satisfy curiosity about how accurate their guess was.
+P0848,indifferent,claude-haiku-4-5,0,0,0,1,1,0,"Participant expresses no preference while focusing on team composition and quality, indicating both indifference to which game to review and interest in team-related factors."
+P0854,indifferent,claude-haiku-4-5,0,1,0,0,1,0,"Participant values their decision-making process over the outcome itself, showing both instrumental focus on process and indifference to win/loss distinction."
+P0857,win,claude-haiku-4-5,0,0,0,1,0,0,"Participant chose to review the win based on team-related reasoning about home court advantage, indicating interest in team dynamics rather than hedonic, learning, or curiosity motivations."
+P0858,win,claude-haiku-4-5,0,0,0,1,0,0,Participant chose to review the win based on team knowledge and confidence in the Suns' superiority over the Kings.
+P0860,win,claude-haiku-4-5,0,0,1,1,0,0,Participant wants to review the win out of curiosity about how the game unfolded and interest in the New Orleans team and home-court dynamics.
+P0862,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to identify mistakes and improve their predictions in the second round.
+P0864,loss,claude-haiku-4-5,0,0,0,1,0,0,"Participant chose to review the loss because they have knowledge or opinions about the Knicks being superior, indicating team-based reasoning."
+P0868,indifferent,claude-haiku-4-5,0,0,1,0,1,0,Participant expresses indifference between the two games while stating curiosity about how close their predictions were in both cases.
+P0872,loss,claude-haiku-4-5,0,0,1,0,0,0,"Participant wants to see the lost game, indicating curiosity about how the game unfolded without mentioning learning or improvement."
+P0873,indifferent,claude-haiku-4-5,0,0,0,0,1,0,Participant expresses indifference because they don't expect a meaningful bonus outcome regardless of which game they review.
+P0874,loss,claude-haiku-4-5,0,0,1,1,0,0,Participant wants to review the loss out of curiosity about how close the game was and interest in the GSW team/matchup.
+P0875,win,claude-haiku-4-5,0,1,0,0,0,0,"Participant wants to review the win to understand what they did correctly, indicating an instrumental learning motivation."
+P0877,win,claude-haiku-4-5,1,0,1,0,0,0,Participant wants to relive the positive feeling of winning and see how the winning prediction played out.
+P0878,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to understand what went wrong and potentially improve their predictions.
+P0879,win,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the win to examine past game statistics, suggesting both curiosity about the game details and instrumental interest in understanding the data."
+P0880,win,claude-haiku-4-5,1,0,0,0,0,0,"Participant wants to review the win to feel good about their success and see potential bonuses earned, prioritizing positive feelings over learning."
+P0882,loss,claude-haiku-4-5,0,0,1,0,0,0,"Participant wants to see how the game unfolded because they were confident in their prediction, driven by curiosity rather than learning or hedonic motives."
+P0883,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to identify and correct their prediction mistakes for improved accuracy in the second round.
+P0886,indifferent,claude-haiku-4-5,0,0,0,0,1,0,"Participant expressed no preference with no explanation provided, indicating indifference between reviewing the win or loss."
+P0887,loss,claude-haiku-4-5,0,1,0,0,0,0,"Participant wants to review the loss to understand why they lost to their opponent, suggesting a learning/improvement motivation."
+P0889,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to identify areas for improvement in the second round.
+P0890,indifferent,claude-haiku-4-5,0,0,0,0,1,0,Participant expresses indifference because both reviewing the win and loss would provide the same information about game outcomes.
+P0892,win,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the win to learn about their opponent's NBA knowledge by comparing how close their predictions were.
+P0896,loss,claude-haiku-4-5,0,0,1,0,0,0,Participant wants to see the final score of the game they lost out of curiosity about the outcome.
+P0897,win,claude-haiku-4-5,0,1,1,0,0,0,Participant chose the win because they wanted to learn from the positive outcome and understand what led to their correct prediction.
+P0898,win,claude-haiku-4-5,1,0,0,0,0,0,"Participant prefers to review the win because it resulted in a tangible reward (bonus), which is a hedonic motivation to relive the positive outcome."
+P0899,win,claude-haiku-4-5,0,1,0,0,0,0,"Participant chose the win to review their accurate prediction and understand how close their guess was to the final score margin, demonstrating instrumental motivation to improve."
+P0901,loss,claude-haiku-4-5,0,0,1,0,0,0,"Participant wants to review the loss out of curiosity to see how the game unfolded, without mentioning learning or improvement."
+P0903,loss,claude-haiku-4-5,0,0,1,0,0,0,"Participant wants to see how close their prediction was to the actual outcome, driven by curiosity rather than learning intent."
+P0905,win,claude-haiku-4-5,1,0,0,0,0,0,"Participant prefers to review the win because it resulted in earning a bonus, which is a hedonic motivation to relive the positive outcome."
+P0908,loss,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the loss to compare their prediction accuracy against their opponent's, combining instrumental learning with curiosity about the specific outcome."
+P0909,win,claude-haiku-4-5,1,0,1,0,0,0,"Participant wants to review the win, motivated by both the desire to relive the positive experience (hedonic) and curiosity about how the game unfolded (curiosity)."
+P0913,loss,claude-haiku-4-5,0,0,1,0,0,0,"Participant wants to see how the game unfolded and ended, driven by curiosity about the game flow rather than learning or hedonic motives."
+P0915,loss,claude-haiku-4-5,0,0,0,1,0,0,"Participant chose to review the loss because they are an Orlando Magic fan and believe the team should not have lost to the Wizards, indicating team fandom and loyalty."
+P0919,win,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the win to see how close their prediction was, and acknowledges the instrumental value of also reviewing the loss to understand how far off they were."
+P0920,win,claude-haiku-4-5,1,0,0,1,0,0,"The participant chose to review their win, motivated by both wanting to feel good about the correct prediction and by interest in the specific teams and their competitive qualities."
+P0922,win,claude-haiku-4-5,0,0,1,0,0,0,"Participant wants to review the win out of curiosity to see how the game actually unfolded, since they made an uninformed guess without close NBA knowledge."
+P0928,loss,claude-haiku-4-5,0,0,0,0,1,0,"Participant chose to review the loss but provided no explanation, suggesting indifference or lack of stated reasoning."
+P0929,win,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the win to understand why they were correct, combining curiosity about game details with an instrumental desire to learn from their successful prediction."
+P0931,win,claude-haiku-4-5,0,0,0,1,0,0,Participant chose to review the win primarily due to fandom and interest in the Knicks team specifically.
+P0932,win,claude-haiku-4-5,0,1,0,1,0,0,"They want to review the win to understand their correct reasoning about roster depth and injuries, combining instrumental learning with team-specific knowledge."
+P0934,indifferent,claude-haiku-4-5,0,0,0,0,1,0,"Participant explicitly states no preference and that both games are equally interesting, indicating indifference to the choice."
+P0936,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to learn from their mistake and improve.
+P0938,win,claude-haiku-4-5,0,0,1,1,0,0,Participant wants to review the win out of curiosity about how the game unfolded and interest in the specific teams involved (Wizards vs Magic).
+P0943,loss,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the loss to understand the magnitude of their prediction error, combining curiosity about the outcome with instrumental motivation to assess accuracy."
+P0944,win,claude-haiku-4-5,0,0,1,0,0,0,"Participant wants to see the score of the game they won, driven by curiosity about the outcome rather than learning or hedonic motivation."
+P0948,win,claude-haiku-4-5,1,0,1,0,0,0,"Participant wants to relive their win and see how the game unfolded, combining hedonic satisfaction with curiosity about the game's progression."
+P0950,win,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the win to observe the game's progression and apply that pattern to future predictions, combining curiosity about the game outcome with instrumental learning goals."
+P0953,win,claude-haiku-4-5,1,0,0,1,0,0,"Participant prefers reviewing the win partly for the positive feeling of having won, and partly because they have greater familiarity and confidence with the Mavericks compared to the other team."
+P0958,win,claude-haiku-4-5,1,0,0,0,0,0,Participant prefers to review the win because they want to enjoy the positive outcome and bonus reward.
+P0960,loss,claude-haiku-4-5,0,1,0,0,0,0,"Participant wants to understand the reason for their loss, which is an instrumental motivation to learn from mistakes."
+P0964,loss,claude-haiku-4-5,0,0,1,0,0,0,Participant wants to see how the game unfolded and the scoring details out of curiosity about the loss.
+P0965,win,claude-haiku-4-5,0,0,0,1,0,0,Participant chose to review the win based on team knowledge and assessment of relative team quality between the matchups.
+P0966,loss,claude-haiku-4-5,0,0,1,0,0,0,Participant wants to review the loss to see how close the game actually was (Orlando won by 4).
+P0967,indifferent,claude-haiku-4-5,0,0,0,0,1,0,"Participant expresses indifference about which game to review, stating it doesn't matter to them."
+P0968,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to identify patterns that will help them improve their predictions in the second round.
+P0971,win,claude-haiku-4-5,1,0,0,0,0,0,"Participant chose to review the win because they want to feel good and have their mood and confidence uplifted, which is purely hedonic motivation."
+P0979,win,claude-haiku-4-5,0,0,1,0,0,0,Participant wants to see how the winning game unfolded to understand their correct prediction.
+P0980,win,claude-haiku-4-5,1,1,0,0,0,0,Participant prefers reviewing the win for both the positive feeling and the practical advantage of studying a successful prediction.
+P0982,indifferent,claude-haiku-4-5,0,0,0,0,1,0,Participant expresses indifference by stating the outcomes are equivalent and both were based on random guessing.
+P0988,win,claude-haiku-4-5,1,0,0,0,0,0,Participant prefers reviewing the win to enjoy the positive outcome and bonus reward.
+P0989,win,claude-haiku-4-5,1,0,1,1,0,0,"Participant prefers reviewing the win out of interest in seeing how their prediction compared to their opponent's, with hedonic satisfaction from the correct guess, curiosity about the game outcome, and team interest in the Warriors."
+P0990,win,claude-haiku-4-5,0,1,1,1,0,0,Participant wants to review the win to understand how they won (instrumental/curiosity) and expresses interest in the specific teams and their roster situations (team).
+P0991,loss,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the loss to understand the game flow and learn why it was harder to predict, combining curiosity about what happened with instrumental motivation to improve."
+P0992,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to learn from their mistake and improve accuracy in the second round.
+P0994,win,claude-haiku-4-5,1,0,0,0,0,0,Participant prefers to review the win because they want to relive the positive feeling of getting it right.
+P0997,win,claude-haiku-4-5,1,0,0,0,0,0,Participant wants to review the win to relive the positive feeling of getting it right.
+P0999,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant chose to review the loss to learn how to adjust their judgment for future predictions.
+P1005,win,claude-haiku-4-5,0,0,1,0,0,0,"Participant wants to see how accurate their prediction was, driven by curiosity about the outcome rather than learning or hedonic motivation."
+P1009,win,claude-haiku-4-5,0,0,0,1,0,0,Participant chose to review the win because of fandom or interest in their favorite team.
+P1012,indifferent,claude-haiku-4-5,0,0,0,0,1,0,"Participant believes outcome prediction is random, so reviewing either game is equally meaningless."
+P1016,indifferent,claude-haiku-4-5,0,0,0,0,1,0,Participant expresses no preference because they had confidence in their prediction regardless of outcome.
+P1017,win,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the win to understand what they did right and learn from their successful prediction.
+P1019,win,claude-haiku-4-5,0,0,1,0,0,0,"Participant wants to review the win to see how close their prediction was to the actual score, driven by curiosity about the outcome rather than learning or hedonic motivation."
+P1021,indifferent,claude-haiku-4-5,0,0,0,0,1,0,Participant expresses indifference because reviewing either game won't change the outcome.
+P1028,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant chose to review the loss explicitly to learn from their mistake and improve.
+P1030,win,claude-haiku-4-5,0,0,1,0,0,0,"Participant wants to see how close their prediction was and observe the game flow out of curiosity, without mentioning learning or improvement."
+P1031,win,claude-haiku-4-5,0,0,1,0,0,0,"Participant wants to see how close their prediction was to the actual outcome, driven by curiosity about the game result rather than learning or hedonic motivation."
+P1032,win,claude-haiku-4-5,1,0,0,0,0,0,"Participant prefers reviewing the win to feel good about being correct and earning a bonus, with confidence in their existing edge."
+P1033,win,claude-haiku-4-5,0,0,0,1,0,0,"Participant chose to review the win based on their belief that LA was the stronger team, indicating team-based reasoning."
+P1035,win,claude-haiku-4-5,1,0,0,0,0,0,"Participant wants to review the win because it resulted in earning a bonus, reflecting hedonic motivation to relive a positive outcome."
+P1038,win,claude-haiku-4-5,0,0,1,1,0,0,Participant wants to review the win because they're interested in seeing the high-profile players and scoring plays from both teams in that matchup.
+P1040,loss,claude-haiku-4-5,0,1,1,0,0,0,Participant wants to review the loss because they were uncertain about the outcome and want to understand how the game unfolded differently than expected.
+P1051,win,claude-haiku-4-5,0,0,1,1,0,0,"Participant wants to review the win to see how the New Orleans team's superior chances played out, showing curiosity about the game and interest in the specific teams involved."
+P1052,win,claude-haiku-4-5,1,0,0,0,0,0,"Participant wants to review the win, indicating a desire to relive or savor the positive outcome."
+P1054,win,claude-haiku-4-5,1,0,0,1,0,0,Participant wants to review the win to savor it while also expressing interest in the teams' performances and relative quality.
+P1055,loss,claude-haiku-4-5,0,0,0,0,1,0,Participant indicates their choice was random with no meaningful reason behind it.
+P1057,loss,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the loss to understand how inaccurate their prediction was, combining instrumental learning with curiosity about the outcome."
+P1058,indifferent,claude-haiku-4-5,0,0,0,0,1,0,Participant expresses uncertainty and no clear preference between reviewing the win or loss.
+P1059,indifferent,claude-haiku-4-5,0,0,0,0,1,0,Participant expresses indifference because they viewed their predictions as random guesses with no meaningful difference between reviewing the win or loss.
+P1064,loss,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the loss out of curiosity about their mistake and to understand what went wrong, combining curiosity-driven interest with an instrumental desire to learn from the error."
+P1066,loss,claude-haiku-4-5,0,0,1,0,0,0,"Participant wants to see how close their incorrect prediction was to the opponent's guess, driven by curiosity about the outcome rather than learning or improvement."
+P1067,indifferent,claude-haiku-4-5,0,0,0,0,1,0,Participant expresses indifference due to lack of interest in the specific teams or matchups involved.
+P1068,win,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the win to see their performance and learn the bonus outcome, combining instrumental learning with curiosity about the result."
+P1072,win,claude-haiku-4-5,1,0,0,0,0,0,"Participant chose to review the win because they had greater confidence in that prediction, suggesting a hedonic preference to relive or savor the outcome they felt more certain about."
+P1073,win,claude-haiku-4-5,1,0,0,0,0,0,Participant wants to review the win to relive and savor the positive experience.
+P1074,loss,claude-haiku-4-5,0,0,1,1,0,0,"Participant wants to see how close their prediction was to the actual outcome, with interest in the specific Mavs-Pelicans matchup based on season knowledge."
+P1075,indifferent,claude-haiku-4-5,0,0,1,0,1,0,"Participant finds both games interesting but expresses no preference, indicating curiosity about either outcome without strong motivation toward learning or emotional avoidance."
+P1076,win,claude-haiku-4-5,0,0,1,0,0,0,"Participant wants to see the outcome of a game they correctly predicted, driven by curiosity about the result rather than learning or hedonic motivation."
+P1077,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to learn from mistakes and improve performance in the second round.
+P1079,win,claude-haiku-4-5,0,0,0,1,0,0,Participant chose to review the win based on team knowledge and matchup analysis (Magic being stronger than Wizards at home).
+P1080,loss,claude-haiku-4-5,0,1,0,1,0,0,Participant wants to review the loss to understand their prediction based on team knowledge and experience with the Raptors and Knicks.
+P1081,indifferent,claude-haiku-4-5,0,0,0,0,1,0,"Participant expresses no preference between win and loss, indicating indifference to the choice."
+P1083,win,claude-haiku-4-5,1,1,0,0,0,0,Participant prefers reviewing the win for both the positive feeling (hedonic) and increased confidence that could help performance in the second round (instrumental).
+P1086,loss,claude-haiku-4-5,0,0,0,1,0,0,Participant chose to review the loss based on team-specific knowledge or interest in Dallas's performance this season.
+P1087,loss,claude-haiku-4-5,0,1,0,0,0,0,"Participant wants to review the loss to retry their guess, indicating an instrumental motivation to improve their prediction accuracy."
+P1088,win,claude-haiku-4-5,0,1,1,1,0,0,"Participant wants to review the win to understand the game differential and compare it against their team knowledge/roster analysis, combining instrumental learning with curiosity about the outcome and team-specific interest."
+P1090,win,claude-haiku-4-5,0,0,1,1,0,0,Participant wants to review the win out of curiosity about how the game unfolded and interest in the specific teams/matchup involved.
+P1091,win,claude-haiku-4-5,0,0,1,1,0,0,"Participant wants to review the win out of curiosity about how the Knicks' expected victory actually unfolded, combined with interest in the specific teams involved."
+P1092,loss,claude-haiku-4-5,0,1,0,0,0,0,"Participant wants to review the loss to identify and learn from their mistake, which is a clear instrumental motivation."
+P1093,win,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the win to understand why their intuition was accurate and to reinforce successful reasoning for the second round, combining curiosity about the outcome with instrumental learning goals."
+P1095,loss,claude-haiku-4-5,0,0,1,0,0,0,"Participant wants to see the correct outcome of the game they predicted incorrectly, driven by curiosity rather than learning or improvement."
+P1098,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant chose to review the loss specifically to identify mistakes and learn from them to improve future predictions.
+P1101,win,claude-haiku-4-5,0,0,1,1,0,0,"Participant wants to review the win to see how their prediction of the best team played out, combining curiosity about the game outcome with team-based reasoning."
+P1103,win,claude-haiku-4-5,1,0,0,0,0,0,Participant chose to review the win primarily to experience the positive feeling of having won.
+P1105,loss,claude-haiku-4-5,0,0,1,0,0,0,"Participant wants to see how incorrect their prediction was, driven by curiosity about the outcome rather than learning or improvement."
+P1107,win,claude-haiku-4-5,1,0,0,0,0,0,Participant prefers to review the win purely for the hedonic pleasure of reliving the successful prediction.
+P1111,win,claude-haiku-4-5,0,0,1,0,0,0,Participant chose to review the win out of curiosity about how the game unfolded.
+P1113,loss,claude-haiku-4-5,0,1,1,0,0,0,Participant wants to review the loss to learn more about the game and understand what went wrong.
+P1116,loss,claude-haiku-4-5,0,1,0,0,0,0,"Participant wants to review the loss to understand their mistake and improve, which is a clear instrumental motivation."
+P1117,loss,claude-haiku-4-5,0,0,0,1,0,0,Participant chose to review the loss because they were interested in the specific matchup between the teams.
+P1118,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to learn from their mistake and improve their predictions for the second round.
+P1120,win,claude-haiku-4-5,1,1,0,1,0,0,"Participant prefers reviewing the win for the positive feeling of having won, combined with instrumental interest in learning more about the team to improve future predictions."
+P1121,loss,claude-haiku-4-5,0,0,1,0,0,0,"Participant wants to see how close their prediction was to the actual result, driven by curiosity about the game outcome rather than learning or improvement."
+P1129,win,claude-haiku-4-5,0,1,0,0,0,0,"Participant chose the win to review because their prediction was closer to the correct margin, indicating an instrumental motivation to understand accuracy."
+P1130,loss,claude-haiku-4-5,0,1,0,1,0,0,"Participant wants to review the loss to reconsider their prediction, motivated both by instrumental desire to improve and by team fandom bias (GSW fan)."
+P1131,win,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the win to see the margin of victory, combining curiosity about the game outcome with instrumental interest in understanding their prediction accuracy."
+P1132,win,claude-haiku-4-5,1,1,0,0,0,0,Participant prefers reviewing the win both for the positive feeling of success (hedonic) and to analyze what went right to improve future predictions (instrumental).
+P1135,loss,claude-haiku-4-5,0,0,1,0,0,0,"Participant wants to see the outcome of their incorrect prediction out of curiosity about how far off they were, without mentioning learning or improvement."
+P1136,win,claude-haiku-4-5,1,1,0,0,0,0,Participant wants to review the win to feel good about the positive result (hedonic) and to see what they did right to improve future predictions (instrumental).
+P1142,indifferent,claude-haiku-4-5,0,0,0,0,1,0,Participant explicitly states they have no preference and that either game works equally well for them.
+P1143,indifferent,claude-haiku-4-5,0,0,0,0,1,0,"Participant expresses indifference, stating that the outcome is fixed and the details of how it occurred are irrelevant to them."
+P1144,win,claude-haiku-4-5,0,1,1,1,0,0,Participant wants to review the win to refresh their memory on the game flow and team dynamics of the matchup.
+P1146,loss,claude-haiku-4-5,0,0,1,0,0,0,Participant wants to review the loss out of curiosity about how close the game actually was.
+P1153,win,claude-haiku-4-5,1,0,1,0,0,0,Participant wants to review the win to relive the positive outcome and satisfy curiosity about the specific margin of victory.
+P1154,loss,claude-haiku-4-5,0,0,1,0,0,0,Participant chose to review the loss out of curiosity about how the game unfolded and why their prediction was incorrect.
+P1156,win,claude-haiku-4-5,0,0,0,1,0,0,"Participant chose to review the win based on their belief that the Knicks were the better team, indicating team-based reasoning."
+P1157,win,claude-haiku-4-5,0,0,1,0,0,0,"Participant wants to see how the winning game unfolded and how accurate their prediction was, driven by curiosity rather than learning or hedonic motivation."
+P1158,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to make adjustments and improve performance in the second round.
+P1160,win,claude-haiku-4-5,0,0,1,1,0,0,Participant wants to review the win out of curiosity about how the game unfolded and interest in the Dallas team's performance.
+P1164,win,claude-haiku-4-5,0,1,0,0,0,0,"Participant wants to review the win to assess their prediction accuracy, which is an instrumental learning goal."
+P1165,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant chose to review the loss explicitly for the instrumental purpose of improving their performance in the second round.
+P1168,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to learn from their mistake and improve future predictions.
+P1169,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant chose to review the loss because they believe it will provide useful information to correct their prediction in the second round.
+P1170,win,claude-haiku-4-5,1,0,0,0,0,0,Participant wants to review the win primarily to experience the positive feeling of having won.
+P1173,win,claude-haiku-4-5,1,0,0,0,0,0,Participant prefers to review the win to experience the positive feeling of having predicted correctly rather than confront the loss.
+P1175,loss,claude-haiku-4-5,0,0,0,0,1,0,"Participant chose to review the loss with no substantive reason given, indicating indifference to the choice."
+P1176,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant chose to review the loss because they believe it will provide more information to improve their predictions in the second round.
+P1179,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to identify their estimation error and improve accuracy in the second round.
+P1182,win,claude-haiku-4-5,1,0,0,0,0,0,Participant wants to review the win to experience the positive feeling of being rewarded for a correct prediction.
+P1188,win,claude-haiku-4-5,0,0,0,1,0,0,"Participant chose to review the win because their prediction was based on team knowledge, indicating interest in the specific teams involved."
+P1189,win,claude-haiku-4-5,0,0,0,1,0,0,"Participant chose to review the win and explained their prediction was based on team knowledge and game location, indicating interest in the specific teams and matchup."
+P1190,win,claude-haiku-4-5,0,0,1,0,1,0,"Participant prefers to review the win out of indifference (it was just a guess) and curiosity about how the game unfolded, without strong investment in the teams or learning goals."
+P1191,win,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the win to understand the score difference and reasons for success, combining curiosity about the game outcome with instrumental learning goals."
+P1194,win,claude-haiku-4-5,1,0,0,0,0,0,Participant prefers to review the win because it aligns with expectations and will be more enjoyable to watch.
+P1196,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to improve performance and achieve a win in the second round.
+P1197,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to identify and learn from their calculation errors for improvement.
+P1198,loss,claude-haiku-4-5,0,1,0,0,0,0,Competitive motivation to review the loss suggests instrumental desire to improve and do better in the second round.
+P1199,loss,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the loss to understand the margin and how inaccurate their prediction was, combining instrumental learning goals with curiosity about the game outcome."
+P1200,win,claude-haiku-4-5,0,0,1,0,0,0,"Participant wants to see how close their prediction was to the actual outcome of the game they won, driven by curiosity about the accuracy of their guess."
+P1201,win,claude-haiku-4-5,1,0,0,0,0,0,Participant wants to review the win primarily to savor or relive the positive experience of having predicted correctly.
+P1205,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to identify mistakes and improve accuracy in the second round.
+P1207,win,claude-haiku-4-5,0,0,1,0,0,0,"Participant wants to see how the winning game unfolded, driven by curiosity rather than learning or emotional reasons."
+P1210,loss,claude-haiku-4-5,0,1,1,0,0,0,Participant wants to review the loss to understand what they got wrong and satisfy curiosity about the outcome.
+P1211,indifferent,claude-haiku-4-5,0,0,1,0,1,0,Participant expressed curiosity about game flow but also stated they had no preference between the two games.
+P1212,loss,claude-haiku-4-5,0,1,1,0,0,0,Participant wants to understand their mistake (instrumental) and see how close their prediction was (curiosity).
+P1215,win,claude-haiku-4-5,0,1,0,0,1,0,Participant expresses instrumental motivation to get a correct answer but simultaneously indicates indifference about which game to review.
+P1216,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to improve their accuracy and performance in the second round.
+P1217,indifferent,claude-haiku-4-5,0,0,0,0,1,0,"Participant expresses indifference, stating that only the outcome matters and they are unconcerned with the process or details of how they arrived at their prediction."
+P1218,win,claude-haiku-4-5,0,0,0,0,1,0,"Participant chose to review the win but provided no explanation, suggesting indifference or lack of deliberate reasoning."
+P1223,win,claude-haiku-4-5,0,0,1,0,0,0,Participant wants to see the score margin of the win out of curiosity about how the game unfolded.
+P1224,win,claude-haiku-4-5,0,0,0,0,1,0,Participant indicates their preference for the win was arbitrary with no meaningful reason behind the choice.
+P1225,loss,claude-haiku-4-5,0,1,0,0,0,0,"Participant wants to review the loss to understand their mistake about the team's position in the game, indicating an instrumental learning motivation."
+P1229,loss,claude-haiku-4-5,0,0,1,0,0,0,"Participant wants to review the loss out of curiosity to see how close their prediction was, without mentioning learning or improvement."
+P1230,win,claude-haiku-4-5,0,1,0,1,0,0,"Participant chose the win to review because they have more knowledge about the Knicks and want to leverage that information for better predictions in the second round, combining instrumental learning goals with team-specific knowledge."
+P1233,win,claude-haiku-4-5,1,0,0,0,0,0,Participant prefers to review the win to avoid the negative feeling of confronting their incorrect loss prediction.
+P1234,win,claude-haiku-4-5,0,0,1,1,0,0,Participant wants to review the win out of interest in the Mavericks team and their performance record.
+P1237,win,claude-haiku-4-5,0,0,1,0,0,0,"Participant wants to see how the game unfolded and compare their prediction to their opponent's, driven by curiosity rather than learning or hedonic motives."
+P1240,win,claude-haiku-4-5,0,0,1,0,0,0,Participant wants to review the win out of curiosity to see how they got the prediction right.
+P1242,indifferent,claude-haiku-4-5,0,0,0,0,1,0,"Participant explicitly states they don't care about which game to review, indicating indifference."
+P1243,win,claude-haiku-4-5,0,1,0,1,0,0,"Participant wants to review the win to compare performance and strength, indicating both instrumental learning goals and interest in team analysis."
+P1244,loss,claude-haiku-4-5,0,1,0,0,0,0,"Participant wants to review the loss to understand why they lost, indicating an instrumental motivation to learn from the mistake."
+P1246,loss,claude-haiku-4-5,0,0,1,0,0,0,Participant wants to see the outcome of the game they lost out of curiosity about what the correct answer was.
+P1247,loss,claude-haiku-4-5,0,0,1,0,0,0,"Participant wants to review the loss out of curiosity to see how the game unfolded, without mentioning learning or improvement."
+P1248,loss,claude-haiku-4-5,0,1,1,0,0,0,Participant wants to understand why they lost (instrumental learning) and is curious about the actual game outcome and score (curiosity).
+P1249,win,claude-haiku-4-5,1,0,1,0,0,0,"Participant wants to review the win to experience the favorable outcome and see how it unfolded, combining hedonic satisfaction with curiosity about the game results."
+P1250,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to learn from the mistake and adjust their prediction for better accuracy in the second round.
+P1251,loss,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the loss to learn the correct answer, combining instrumental motivation (improvement) with curiosity about the outcome."
+P1253,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to learn from the mistake and improve accuracy in the second round.
+P1255,win,claude-haiku-4-5,0,1,0,0,0,0,"Participant chose the win because they were closer to the correct prediction and could earn a bonus, indicating an instrumental motivation to understand what led to their better performance."
+P1256,loss,claude-haiku-4-5,0,1,0,0,0,0,"Participant chose to review the loss, suggesting an instrumental motivation to learn from the mistake and improve for the second round."
+P1260,indifferent,claude-haiku-4-5,0,0,0,0,1,0,"Participant expresses indifference, stating that either game choice would be equally acceptable."
+P1263,loss,claude-haiku-4-5,0,1,0,1,0,0,Participant wants to review the loss to understand their prediction error (instrumental) and references past Knicks performance knowledge (team).
+P1265,loss,claude-haiku-4-5,0,0,1,0,0,0,"The participant wants to review the loss out of curiosity about how the game unfolded, with a casual tone suggesting they're interested in seeing what happened."
+P1269,win,claude-haiku-4-5,1,0,0,0,0,0,"Participant prefers to review the win because it will be more positive to watch, indicating a desire to feel good and savor the successful prediction."
+P1270,win,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the win to see how the game progressed, combining curiosity about the game's unfolding with instrumental interest in understanding their correct prediction."
+P1271,loss,claude-haiku-4-5,0,0,1,0,0,0,"Participant wants to see how the lost game unfolded out of curiosity about what they missed, without mentioning learning or improvement."
+P1275,loss,claude-haiku-4-5,0,1,0,0,0,0,"Participant chose to review the loss because they believe it will help them improve more, which is an instrumental motivation focused on learning and doing better."
+P1278,indifferent,claude-haiku-4-5,0,0,1,0,1,0,Participant expresses indifference between the two games while showing curiosity about seeing the graph/data visualization regardless of which game they review.
+P1280,win,claude-haiku-4-5,1,0,1,0,0,0,Participant prefers to review the win out of hedonic desire to see a successful result and curiosity about how that game unfolded.
+P1281,win,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the win to understand how their prediction compared to the actual game flow and score, combining curiosity about the outcome with instrumental interest in evaluating their prediction accuracy."
+P1282,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to learn from their mistake and improve their accuracy in the second round.
+P1283,loss,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the loss to understand why their confident prediction was wrong, combining instrumental learning with curiosity about the outcome."
+P1285,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to understand their mistake and improve their predictions in the second round.
+P1286,loss,claude-haiku-4-5,0,0,1,0,0,0,"Participant wants to know the specific margin of loss, driven by curiosity about the game outcome rather than learning or hedonic motives."
+P1289,win,claude-haiku-4-5,0,0,1,0,0,0,"Participant wants to review the win out of curiosity to see how the game unfolded, since they were uncertain about the teams' records."
+P1290,win,claude-haiku-4-5,0,1,1,0,0,0,Participant wants to review the win to see how close their prediction was and to improve their strategy for the next round.
+P1291,win,claude-haiku-4-5,0,0,1,0,0,0,Participant chose the win primarily to satisfy curiosity about how the game unfolded.
+P1295,win,claude-haiku-4-5,1,0,0,0,0,0,"Participant prefers to review the win because it provided a bonus, indicating a desire to relive or savor the positive outcome."
+P1296,win,claude-haiku-4-5,0,0,1,0,0,0,"Participant wants to see how the winning game unfolded, driven by curiosity rather than learning or emotional reasons."
+P1300,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to identify and learn from their mistake for improvement.
+P1305,loss,claude-haiku-4-5,0,0,1,1,0,0,"The participant wants to review the loss to see how the game unfolded, driven by curiosity about the matchup and interest in the specific teams (Warriors and their dynamics with Curry)."
+P1310,win,claude-haiku-4-5,0,0,0,0,1,0,"Participant chose to review the win but provided no explanation, suggesting indifference or lack of deliberate reasoning."
+P1312,win,claude-haiku-4-5,1,0,1,0,0,0,"Participant wants to review the win, motivated by the positive feeling of winning and curiosity about seeing the game's graph/details."
+P1316,win,claude-haiku-4-5,0,0,0,1,0,0,Participant chose to review the win based on interest in the Suns' season performance and the matchup dynamics between the two teams.
+P1318,win,claude-haiku-4-5,0,0,0,1,0,0,"Participant chose to review the win because they believe it involved a stronger team, indicating interest in team quality and matchup characteristics."
+P1319,indifferent,claude-haiku-4-5,0,0,0,0,1,0,"Participant explicitly states they have no preference, indicating indifference to reviewing either outcome."
+P1320,win,claude-haiku-4-5,0,1,0,1,0,0,"Participant chose the win because they have better knowledge of the Warriors, suggesting both instrumental motivation (to leverage their team knowledge) and team-based interest in that specific matchup."
+P1326,loss,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the loss to understand their uncertainty about that game, combining instrumental learning with curiosity about the outcome."
+P1327,win,claude-haiku-4-5,1,0,0,0,0,0,Participant prefers to review the win because they want to relive and savor the positive experience of doing well.
+P1328,win,claude-haiku-4-5,0,1,0,0,0,0,"Participant wants to review the win to assess their prediction accuracy, which is an instrumental learning goal."
+P1334,win,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the win to understand how their prediction compared to the actual outcome, combining curiosity about game flow with instrumental learning about prediction accuracy."
+P1335,win,claude-haiku-4-5,0,0,0,1,0,0,"Participant chose to review the win because they have interest in both teams being strong, indicating team-based motivation."
+P1337,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to understand their mistake and improve performance in the next round.
+P1338,indifferent,claude-haiku-4-5,0,0,0,0,1,0,Participant expresses indifference because knowing the outcome already makes the choice irrelevant to them.
+P1339,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to identify mistakes and improve accuracy in the second round.
+P1340,win,claude-haiku-4-5,1,0,0,0,0,0,Participant prefers to review the win purely for the positive feeling of having predicted correctly.
+P1345,indifferent,claude-haiku-4-5,0,0,0,0,1,0,Participant explicitly states indifference between reviewing the win or loss.
+P1347,loss,claude-haiku-4-5,0,0,0,1,0,0,Participant chose to review the loss because of team preference/fandom for the Mavericks.
+P1348,win,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the win to see the bonus earned, combining curiosity about the outcome with instrumental interest in understanding their reward."
+P1349,loss,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the loss to understand the gap between their prediction and the actual outcome, combining learning/improvement with curiosity about the game details."
+P1350,loss,claude-haiku-4-5,0,0,0,0,1,0,Participant explicitly states they don't think the choice matters and randomly selected one option.
+P1353,loss,claude-haiku-4-5,0,0,0,0,1,0,"Participant provides no substantive reason for their choice, suggesting indifference or lack of motivation to explain their preference."
+P1355,win,claude-haiku-4-5,0,1,0,1,0,0,"Participant wants to review the win because they follow the Clippers more closely, which would help them make better predictions (instrumental) and reflects team interest/fandom (team)."
+P1357,loss,claude-haiku-4-5,0,1,0,0,0,0,"Participant wants to review the loss to understand their mistake and improve, which is an instrumental motivation focused on learning and doing better."
+P1358,win,claude-haiku-4-5,0,0,1,0,0,0,"Participant wants to see how close their estimate was to the actual outcome, driven by curiosity about the accuracy of their correct prediction."
+P1363,loss,claude-haiku-4-5,0,0,0,0,1,0,Participant provided minimal explanation suggesting they made a random or arbitrary choice with no clear motivation.
+P1367,indifferent,claude-haiku-4-5,0,1,0,0,1,0,Participant expresses indifference between the two options while acknowledging that reviewing either game could provide instrumental value for improving future predictions.
+P1368,indifferent,claude-haiku-4-5,0,1,0,0,1,0,"Participant expressed no preference but prioritized receiving feedback to improve their game performance, combining indifference about which game with instrumental motivation for learning."
+P1370,loss,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the loss to identify where their judgment went wrong and understand the margin of error, combining instrumental learning goals with curiosity about how close their prediction was."
+P1371,win,claude-haiku-4-5,1,0,0,0,0,0,Participant prefers to review the win to experience the positive feeling of having won with a bonus.
+P1372,win,claude-haiku-4-5,1,0,0,0,0,0,Participant prefers to review the win because they want to relive the positive feeling of having predicted correctly.
+P1373,loss,claude-haiku-4-5,1,0,0,0,0,0,Participant wants to review the loss because they think it might have a positive emotional effect on them.
+P1374,win,claude-haiku-4-5,0,0,0,1,0,0,"Participant chose to review the win because they have team-based preferences, noting that the Mavericks are a stronger, better-structured team compared to the Pelicans."
+P1381,win,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the win to understand the reasons for their correct prediction, combining curiosity about the game outcome with instrumental interest in learning."
+P1382,win,claude-haiku-4-5,1,0,0,0,0,0,"Participant prefers to review the win, indicating a desire to relive or savor the positive outcome."
+P1383,win,claude-haiku-4-5,0,0,0,0,1,0,"Participant chose the win but explicitly states they had no process and were just guessing, indicating indifference to the choice."
+P1384,loss,claude-haiku-4-5,0,0,0,1,0,0,"Participant chose to review the loss because they had a preference for the home team in that matchup, indicating team-based interest rather than hedonic, instrumental, or curiosity motivations."
+P1388,loss,claude-haiku-4-5,0,1,0,1,0,0,"Participant wants to review the loss to examine historical patterns against those specific teams, combining instrumental learning with team-specific knowledge."
+P1390,loss,claude-haiku-4-5,0,0,1,1,0,0,"Participant wants to watch the loss to see how the game unfolded, driven by curiosity about the game flow and interest in learning about unfamiliar teams."
+P1391,loss,claude-haiku-4-5,0,0,1,0,0,0,"Participant was drawn to review the loss out of curiosity about what caught their attention, without stated learning or hedonic motivation."
+P1393,win,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the win to see how their guess compared to opponents' predictions in a bonus-earning round, combining curiosity about the outcome comparison with instrumental interest in understanding their relative performance."
+P1394,loss,claude-haiku-4-5,0,1,1,0,0,0,Participant wants to review the loss to understand how close they were and learn how to correct their mistake for improvement.
+P1395,win,claude-haiku-4-5,0,1,0,0,0,0,"Participant chose the win because they believed reviewing it would give them a better chance of success in the second round, indicating an instrumental motivation to improve performance."
+P1397,win,claude-haiku-4-5,1,0,0,0,0,0,Participant prefers to review the win for the hedonic pleasure of reliving a successful prediction.
+P1398,loss,claude-haiku-4-5,0,0,1,0,1,0,Participant wants to see the score out of curiosity but indicates it's not a significant concern to them.
+P1399,win,claude-haiku-4-5,0,0,1,0,0,0,"Participant wants to see how close their prediction was to the actual outcome, driven by curiosity about the game result rather than learning or hedonic motivation."
+P1400,loss,claude-haiku-4-5,0,1,0,1,0,0,"Participant wants to review the loss to understand team quality differences, combining instrumental learning with team-specific knowledge."
+P1402,win,claude-haiku-4-5,1,0,0,0,0,0,Participant wants to review the win to savor their good performance rather than confront their poor prediction on the loss.
+P1405,loss,claude-haiku-4-5,0,1,0,0,0,0,"Participant wants to review the loss to understand their mistake and improve, which is an instrumental learning motivation."
+P1407,indifferent,claude-haiku-4-5,0,0,0,0,1,0,Participant expresses no preference and indicates they simply want to engage in the activity without caring which game to review.
+P1408,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to learn from the mistake and improve their predictions in the second round.
+P1411,indifferent,claude-haiku-4-5,0,1,0,0,0,0,"Participant wants to review either game to help them remember their previous predictions, which is instrumental for the second round."
+P1412,loss,claude-haiku-4-5,0,1,0,0,0,0,"Participant wants to review the loss to understand why they lost, indicating an instrumental motivation to learn from the mistake."
+P1413,win,claude-haiku-4-5,1,0,0,0,0,0,"Participant prefers to review the win because it resulted in a bonus, reflecting a desire to feel good about the positive outcome."
+P1418,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant chose to review the loss because they want to learn from their mistake and improve their predictions.
+P1419,win,claude-haiku-4-5,1,0,0,0,0,0,Participant prefers to review the win because they want to relive or savor the positive feeling of having predicted correctly.
+P1420,win,claude-haiku-4-5,1,0,0,0,0,0,Participant prefers to review the win to experience the positive feeling of seeing their correct prediction rather than confronting the loss.
+P1422,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant chose to review the loss specifically to identify mistakes and improve performance in the second round.
+P1424,loss,claude-haiku-4-5,0,0,0,1,0,0,"Participant chose to review the loss because of preference for the Eastern Conference, indicating team/conference interest rather than hedonic, instrumental, or curiosity motivations."
+P1425,loss,claude-haiku-4-5,0,0,0,0,1,0,"Participant explicitly states they chose randomly, indicating no meaningful preference or reason for their choice."
+P1426,win,claude-haiku-4-5,1,0,0,0,0,0,Participant wants to review the win to relive the positive feeling of having predicted correctly.
+P1427,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to identify and correct their mistake for improved performance in the second round.
+P1428,loss,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the loss to understand how far off their confident prediction was, combining instrumental learning with curiosity about the outcome."
+P1432,win,claude-haiku-4-5,1,0,1,0,0,0,Participant prefers the win for hedonic reasons (preferring to see wins over losses) and curiosity about how close the prediction was.
+P1433,win,claude-haiku-4-5,0,0,0,1,0,0,"Participant chose to review the win based on fandom for the Warriors, a team preference rather than hedonic or instrumental motivation."
+P1434,loss,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the loss to understand the magnitude of their error and improve future predictions, combining instrumental learning goals with curiosity about how wrong they were."
+P1435,win,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the win to understand how close they came to losing, combining curiosity about the game outcome with instrumental interest in understanding their prediction accuracy."
+P1436,loss,claude-haiku-4-5,0,1,1,0,0,0,Participant wants to review the loss to understand their prediction error and satisfy curiosity about how far off they were.
+P1441,indifferent,claude-haiku-4-5,0,0,0,0,1,0,"Participant expresses genuine indifference, stating that neither game stood out as important and both seemed equally informative with no strong reason to prefer one."
+P1443,win,claude-haiku-4-5,0,1,0,0,0,0,"Participant wants to review the win to evaluate whether their prediction was based on sound analysis or luck, which is an instrumental learning goal."
+P1444,win,claude-haiku-4-5,1,0,0,0,0,0,"Participant chose to review the win primarily for hedonic reasons, wanting to relive or savor the positive outcome."
+P1447,loss,claude-haiku-4-5,0,0,1,0,0,0,"Participant wants to see the loss without explaining a specific reason, suggesting curiosity about how the game unfolded."
+P1449,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to understand their mistake and improve performance in the second round.
+P1450,win,claude-haiku-4-5,0,0,0,1,0,0,"Participant chose to review the win because of interest in the Magic as a team, citing their quality as a reason."
+P1451,win,claude-haiku-4-5,1,0,0,0,0,0,"Participant prefers to review the win, likely motivated by the desire to experience positive feelings from reliving a successful prediction."
+P1455,win,claude-haiku-4-5,1,0,0,0,0,0,"Participant prefers to review the win simply because they won that prediction, indicating a hedonic motivation to relive or savor the successful outcome."
+P1457,win,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the win to leverage their successful insight for improved performance in the second round.
+P1460,win,claude-haiku-4-5,1,0,0,1,0,0,Participant wants to review the win to feel good about earning the bonus and expresses confidence based on team knowledge (Knicks superiority over Raptors).
+P1463,win,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the win to understand what led to their correct prediction and learn what helped them succeed, combining instrumental learning with curiosity about the accuracy of their guess."
+P1465,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to understand their prediction error and improve accuracy in the second round.
+P1466,loss,claude-haiku-4-5,0,0,0,0,1,0,"Participant provides no substantive reason for their choice, indicating indifference to the decision."
+P1470,loss,claude-haiku-4-5,0,1,0,0,0,0,"Participant wants to review the loss to understand why they lost, indicating an instrumental motivation to learn from the mistake."
+P1477,loss,claude-haiku-4-5,0,1,1,1,0,0,"Participant wants to understand their prediction error (instrumental) and see how the game unfolded (curiosity), with interest in the Mavericks' performance (team)."
+P1481,win,claude-haiku-4-5,0,1,0,0,0,0,"Participant chose to review the win because they believe it will improve their chances of winning in the second round, reflecting an instrumental motivation to learn and perform better."
+P1482,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant chose to review the loss specifically to learn from mistakes and improve their accuracy in the second round.
+P1484,win,claude-haiku-4-5,1,0,0,0,0,0,Participant prefers to review the win simply to relive the positive feeling of having predicted correctly.
+P1486,win,claude-haiku-4-5,1,0,0,0,0,0,"Participant prefers to review the win, indicating a desire to relive or savor the positive outcome."
+P1487,loss,claude-haiku-4-5,0,1,0,0,0,0,"Participant chose the loss to understand their mistake and improve future predictions, which is clearly instrumental motivation."
+P1489,loss,claude-haiku-4-5,0,1,0,0,0,0,"Participant wants to review the loss to improve performance and avoid repeating the mistake in the second round, demonstrating instrumental motivation."
+P1490,loss,claude-haiku-4-5,0,1,0,0,0,0,"Participant wants to review the loss to understand the magnitude of their prediction error, which is an instrumental learning goal."
+P1491,win,claude-haiku-4-5,1,0,0,1,0,0,"Participant prefers reviewing the win because they felt more confident in that prediction, had better team knowledge, and wanted to experience the positive feeling of the win."
+P1493,indifferent,claude-haiku-4-5,0,0,1,0,1,0,"Participant expresses equal curiosity about both outcomes without preference, indicating indifference between the two options."
+P1497,indifferent,claude-haiku-4-5,0,0,0,0,1,0,"Participant expressed no preference with no explanation provided, indicating indifference between reviewing the win or loss."
+P1499,loss,claude-haiku-4-5,0,0,0,0,1,0,"Participant provides no substantive reason for their choice, suggesting indifference or lack of motivation to explain their preference."
+P1501,loss,claude-haiku-4-5,0,0,1,1,0,0,Participant wants to see how the lost game unfolded out of curiosity and has interest in the specific teams' matchup.
+P1505,indifferent,claude-haiku-4-5,0,0,0,0,1,0,Participant explicitly states they have no preference between reviewing the win or loss.
+P1506,indifferent,claude-haiku-4-5,0,0,1,0,1,0,Participant expresses indifference between win and loss review while indicating curiosity about the actual game content through highlights.
+P1508,win,claude-haiku-4-5,0,0,0,0,1,0,"Participant explicitly states they see no advantage to either choice and selected randomly, indicating indifference."
+P1512,win,claude-haiku-4-5,1,0,1,0,0,0,Participant chose the win due to both hedonic motivation (enjoying the positive outcome) and curiosity about seeing the results.
+P1516,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to understand their mistake and improve their prediction methodology for the second round.
+P1517,win,claude-haiku-4-5,0,0,1,1,0,0,Participant wants to review the win to see how it unfolded and because of interest in the specific teams (Clippers vs Warriors).
+P1518,loss,claude-haiku-4-5,0,1,0,0,0,0,"Participant prefers to review the loss to learn from mistakes rather than dwell on the win, showing instrumental motivation to improve."
+P1520,win,claude-haiku-4-5,0,0,1,1,0,0,Participant wants to see how their guess compared (curiosity) and mentions greater knowledge of the Suns (team interest).
+P1522,win,claude-haiku-4-5,0,0,1,0,0,0,"Participant wants to see the specific details of their winning prediction (the margin), driven by curiosity about the outcome rather than learning or hedonic motivation."
+P1526,loss,claude-haiku-4-5,0,1,0,1,0,0,"Participant chose to review the loss because they believed the Knicks' championship status made them more likely to win, suggesting instrumental reasoning about prediction accuracy and team-based knowledge."
+P1529,win,claude-haiku-4-5,1,0,1,1,0,0,"Participant wants to review the win due to curiosity about the teams and matchup, combined with hedonic preference to see themselves win rather than confront the loss."
+P1530,win,claude-haiku-4-5,1,0,0,0,0,0,Participant prefers to review the win to relive the positive feeling of winning and receiving the bonus.
+P1532,win,claude-haiku-4-5,0,0,1,0,0,0,"Participant wants to see how close their prediction was to the actual outcome, driven by curiosity about the game result rather than learning or hedonic motivation."
+P1534,loss,claude-haiku-4-5,0,0,0,0,1,0,"Participant provides no substantive reason for their choice, merely restating which game they prefer to review."
+P1536,loss,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the loss to understand how far off their prediction was, combining curiosity about the specific outcome with instrumental motivation to learn from the mistake."
+P1539,win,claude-haiku-4-5,1,0,0,0,0,0,Participant prefers to review the win because they want to relive or savor the positive outcome of that matchup.
+P1540,win,claude-haiku-4-5,0,0,1,0,0,0,"Participant wants to see how close their prediction was to the actual outcome, driven by curiosity about the game details rather than learning or hedonic motivation."
+P1541,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to analyze their incorrect decision and improve future predictions.
+P1543,win,claude-haiku-4-5,1,0,0,0,0,0,Participant wants to review the win to relive the positive feeling of success and repeat it.
+P1544,win,claude-haiku-4-5,0,0,1,1,0,0,Participant wants to review the win out of curiosity about how the game unfolded and interest in the Knicks team.
+P1545,indifferent,claude-haiku-4-5,0,0,0,0,1,0,"Participant expresses indifference, stating that either option would be acceptable to them."
+P1548,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to understand what went wrong and improve for the second round.
+P1550,win,claude-haiku-4-5,0,0,1,0,0,0,"Participant wants to review the win to see how close their prediction was, driven by curiosity about the accuracy of their guess rather than learning or improvement."
+P1552,loss,claude-haiku-4-5,0,0,0,0,1,0,"Participant states they chose the loss with no explanation of reasoning, suggesting indifference or lack of clear motivation."
+P1554,win,claude-haiku-4-5,0,1,0,0,0,0,"Participant wants to review the win to understand what factors led to their successful prediction, demonstrating an instrumental motivation to learn from their correct outcome."
+P1555,win,claude-haiku-4-5,1,0,0,0,0,0,Participant prefers to review the win to avoid the negative feeling of confronting the loss.
+P1558,indifferent,claude-haiku-4-5,0,1,0,0,1,0,Participant expresses indifference between win and loss while stating an instrumental motivation to understand their predictions regardless of outcome.
+P1561,indifferent,claude-haiku-4-5,0,0,0,0,1,0,Participant explicitly states they have no preference between reviewing the win or loss.
+P1562,indifferent,claude-haiku-4-5,0,0,0,0,1,0,"Participant explicitly states they see no benefit to reviewing either game, indicating indifference between the two options."
+P1563,win,claude-haiku-4-5,0,1,0,0,0,0,"Participant wants to review the win to understand what they did correctly, indicating a learning/improvement motivation."
+P1571,loss,claude-haiku-4-5,0,0,0,1,0,0,"Participant chose to review the loss because they have opinions about team quality (Knicks being better), indicating team-based reasoning for their preference."
+P1574,win,claude-haiku-4-5,0,0,1,0,0,0,Participant wants to see the details of their winning prediction out of curiosity about the margin of victory.
+P1576,loss,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the loss to check how close their prediction was, combining curiosity about the outcome with instrumental interest in evaluating their guess quality."
+P1579,win,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the win because it was closer to the actual margin, indicating both curiosity about how close their prediction was and instrumental interest in understanding the accuracy."
+P1581,loss,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the loss to understand how inaccurate their prediction was (instrumental) and see the game outcome (curiosity), with a mention of potential bonus."
+P1582,loss,claude-haiku-4-5,0,1,1,1,0,0,"Participant wants to review the loss to understand why their prediction (Warriors win) was incorrect, showing both curiosity about the game outcome and instrumental motivation to learn from the mistake."
+P1583,indifferent,claude-haiku-4-5,0,0,0,0,1,0,"Participant expresses indifference, stating that the choice doesn't matter because NBA games are unpredictable."
+P1585,loss,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the loss to understand their mistake and see how far off their prediction was, combining learning goals with curiosity about the outcome."
+P1588,win,claude-haiku-4-5,0,0,1,0,0,0,Participant wants to review the win out of curiosity about how the game unfolded and the margin of victory.
+P1589,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to identify mistakes and improve future prediction accuracy.
+P1590,win,claude-haiku-4-5,1,0,0,0,0,0,"Participant prefers to review the win, likely motivated by the desire to feel good and savor the positive outcome."
+P1594,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to identify and correct their mistake for improved performance.
+P1596,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to identify mistakes and improve understanding of that matchup for future predictions.
+P1600,loss,claude-haiku-4-5,0,1,0,0,0,0,"Participant wants to review the loss because they are interested in examining their failures, which suggests an instrumental motivation to learn from mistakes."
+P1602,win,claude-haiku-4-5,1,0,1,0,0,0,"Participant wants to review the win to see their successful choice, combining the pleasure of reliving success with curiosity about how the prediction played out."
+P1603,win,claude-haiku-4-5,0,1,0,0,0,0,"Participant wants to review the win to understand what they did successfully, indicating an instrumental motivation to learn from their correct prediction."
+P1605,loss,claude-haiku-4-5,0,1,0,0,0,0,"Participant wants to review the loss to understand their failure and improve, which is an instrumental motivation to learn from mistakes."
+P1607,indifferent,claude-haiku-4-5,0,0,0,0,1,0,Participant explicitly states indifference to which game they review.
+P1611,win,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the win to understand how close they came to being wrong, combining curiosity about the game outcome with instrumental interest in understanding their prediction accuracy."
+P1612,win,claude-haiku-4-5,0,0,1,0,0,0,"Participant wants to review the win to see how close their prediction was, driven by curiosity about the outcome rather than learning or hedonic motivation."
+P1613,indifferent,claude-haiku-4-5,0,1,0,0,1,0,"Participant expresses indifference between win and loss while suggesting both would be equally beneficial, indicating instrumental value in reviewing either outcome."
+P1616,loss,claude-haiku-4-5,0,0,1,0,0,0,Participant wants to see the outcome of their incorrect prediction out of curiosity about the margin of error.
+P1617,win,claude-haiku-4-5,1,0,1,0,0,0,"Participant wants to review the win, expressing both a desire to experience the positive outcome (hedonic) and curiosity about how that particular game unfolded."
+P1618,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to identify their mistake and improve performance in the second round.
+P1621,win,claude-haiku-4-5,1,0,0,0,0,0,"Participant prefers to review the win because they performed better, indicating a hedonic preference to relive success."
+P1622,win,claude-haiku-4-5,0,0,0,1,0,0,Participant chose to review the win based on team preference and belief that the Magic are a better team.
+P1623,win,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the win to understand how close their prediction was to the actual score, combining curiosity about the game outcome with instrumental interest in evaluating prediction accuracy."
+P1625,indifferent,claude-haiku-4-5,0,1,1,0,1,0,Participant expresses indifference while simultaneously indicating instrumental motivation (learning from outcomes) and curiosity about how the games unfolded.
+P1629,indifferent,claude-haiku-4-5,0,0,0,0,1,0,Participant expresses indifference by preferring randomization over deliberate choice.
+P1632,win,claude-haiku-4-5,1,0,1,0,0,0,"Participant wants to review the win, likely for the good feeling of being right and curiosity about how their guess played out."
+P1633,loss,claude-haiku-4-5,0,0,1,0,0,0,Participant wants to see the specific outcome details (margin of loss) out of curiosity about how close or far off their prediction was.
+P1634,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to understand the closer score and improve their prediction for that specific game in the second round.
+P1636,loss,claude-haiku-4-5,0,1,0,1,0,0,"Participant wants to review the loss to analyze team history and strength, combining instrumental learning with team-specific knowledge."
+P1637,win,claude-haiku-4-5,1,0,0,0,0,0,Participant wants to review the win to relive the positive feeling of being correct.
+P1638,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to understand their rushed decision-making process and improve their approach in the second round.
+P1642,loss,claude-haiku-4-5,0,0,1,1,0,0,"Participant wants to review the loss to see how the Pelicans and Mavericks play, driven by curiosity about the teams and their matchup rather than learning from the mistake."
+P1643,loss,claude-haiku-4-5,0,1,0,0,0,0,"Participant wants to review the loss to understand their mistake and improve, which is an instrumental learning motivation."
+P1645,win,claude-haiku-4-5,1,0,0,0,0,0,Participant wants to review the win to relive or savor the positive feeling of getting it right.
+P1647,win,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the win to assess their prediction accuracy, combining curiosity about the outcome with instrumental interest in evaluating their performance."
+P1648,win,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the win to see how accurate their prediction was, combining curiosity about the outcome with instrumental motivation to understand their successful prediction."
+P1649,win,claude-haiku-4-5,0,0,1,1,0,0,"Participant wants to review the win out of curiosity about how the close matchup between the Clippers and their opponent played out, combined with interest in the teams involved."
+P1657,win,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the win to learn from correct decisions and improve future predictions.
+P1661,loss,claude-haiku-4-5,0,0,0,1,0,0,"Participant chose to review the loss because of general preference for the Warriors team, indicating team-based motivation."
+P1662,indifferent,claude-haiku-4-5,0,0,0,0,1,0,"Participant explicitly states indifference, indicating the choice has no meaningful impact on their preference."
+P1663,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to understand what went wrong and improve for the next round.
+P1664,loss,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the loss to understand the margin of error, combining curiosity about the game outcome with instrumental motivation to learn from the mistake."
+P1666,win,claude-haiku-4-5,0,0,1,0,0,0,"Participant wants to review the win out of curiosity to see how close their prediction was, particularly given they set a large spread."
+P1667,loss,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the loss to understand the game flow and measure how far off their prediction was, combining curiosity about the game's progression with instrumental interest in evaluating their accuracy."
+P1669,win,claude-haiku-4-5,1,0,1,0,0,0,Participant wants to relive the positive feeling of winning (hedonic) and is curious about how close their prediction was to the actual score (curiosity).
+P1670,win,claude-haiku-4-5,0,0,0,1,0,0,Participant chose to review the win because they follow the Pelicans closely and were interested in the specific team and matchup.
+P1677,win,claude-haiku-4-5,1,0,0,0,1,0,"Participant chose the win but gave no substantive reason, suggesting indifference to the choice while also implying a hedonic preference for the positive outcome."
+P1678,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to improve their performance in the second round.
+P1679,win,claude-haiku-4-5,1,0,0,0,0,0,"Participant prefers to review the win because it resulted in a bonus, indicating a hedonic motivation to relive the positive outcome."
+P1680,win,claude-haiku-4-5,0,1,0,0,0,0,"Participant chose the win to test their accuracy and gather evidence for improving future decision-making, which is instrumental motivation."
+P1681,win,claude-haiku-4-5,1,0,0,0,0,0,Participant chose to review the win because they prefer positive news and the good feeling associated with it.
+P1682,loss,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the loss to understand how close their prediction was compared to the actual outcome, combining curiosity about the game's progression with an instrumental desire to compare their accuracy."
+P1683,loss,claude-haiku-4-5,0,1,0,0,0,0,"Participant wants to review the loss to analyze strategy in close games, indicating an instrumental learning motivation."
+P1684,win,claude-haiku-4-5,0,0,0,1,0,0,"Participant chose to review the win based on NBA knowledge and team strength analysis, indicating interest in the specific teams and matchup dynamics."
+P1687,loss,claude-haiku-4-5,0,1,0,0,0,0,"Participant wants to review the loss to understand why they got it wrong, implying a desire to learn from the mistake."
+P1688,loss,claude-haiku-4-5,0,1,0,1,0,0,"Participant wants to review the loss to understand why the Clippers won, combining instrumental learning with team-specific knowledge about relative team strength."
+P1692,win,claude-haiku-4-5,1,0,1,0,0,0,Participant wants to relive the winning game (hedonic) and is curious about how the score margin developed throughout the game (curiosity).
+P1694,loss,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the loss to understand why their confident prediction was wrong, combining instrumental learning with curiosity about the outcome."
+P1695,indifferent,claude-haiku-4-5,0,0,0,0,1,0,Participant explicitly states they have no preference and that the choice doesn't matter to them.
+P1697,indifferent,claude-haiku-4-5,0,0,0,0,1,0,Participant believes reviewing either game is pointless since both were guesses based on luck rather than skill or knowledge that could be improved.
+P1698,win,claude-haiku-4-5,1,0,0,0,0,0,"Participant chose to review the win primarily for the positive feeling of having won, with no mention of learning or improvement."
+P1699,loss,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the loss to understand how the game unfolded and compare their guess to their opponent's, showing both curiosity about the game outcome and instrumental motivation to learn from the mistake."
+P1701,loss,claude-haiku-4-5,0,1,0,0,0,0,"Participant wants to review the loss to understand what went wrong with their prediction, reflecting an instrumental motivation to learn from mistakes."
+P1702,loss,claude-haiku-4-5,0,1,1,0,0,0,Participant wants to review the loss out of curiosity about the outcome and explicitly states that understanding it better could help them improve in the second round.
+P1703,win,claude-haiku-4-5,0,0,1,0,0,0,Participant wants to see how the winning game unfolded out of curiosity about the outcome.
+P1705,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to improve their predictions in the second round.
+P1706,loss,claude-haiku-4-5,0,1,0,0,0,0,"Participant wants to review the loss to understand how inaccurate their prediction was, which is an instrumental motivation to improve."
+P1711,loss,claude-haiku-4-5,0,0,1,0,0,0,"Participant wants to see how the lost game unfolded, driven by curiosity rather than learning or hedonic motives."
+P1713,loss,claude-haiku-4-5,0,1,0,0,0,0,Participant wants to review the loss to learn from mistakes and improve performance in the second round.
+P1716,win,claude-haiku-4-5,0,1,1,0,0,0,"Participant wants to review the win to see how they performed well, combining curiosity about the outcome with instrumental interest in understanding their successful prediction."
+P1718,indifferent,claude-haiku-4-5,0,0,0,0,1,0,Participant expresses indifference because reviewing either game would not affect their future predictions.
+P1719,win,claude-haiku-4-5,0,0,0,1,0,0,"Participant chose to review the win based on team knowledge/fandom, preferring to watch the Knicks because they had a better season."
+P1720,win,claude-haiku-4-5,0,0,1,0,0,0,"Participant wants to review the win to see how close their guess was and understand how they earned the bonus, driven by curiosity about the game outcome rather than learning for improvement."

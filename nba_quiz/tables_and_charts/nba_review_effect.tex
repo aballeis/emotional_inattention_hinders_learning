@@ -1,0 +1,26 @@
+\begin{table}[tbp]\centering
+  \begin{threeparttable}\small
+    \caption{Effect of the assigned review on the change in the expected number of questions won}
+    \label{tab:nba_experiment}
+    \begin{tabular}{lcccc}
+      \toprule
+       & \multicolumn{4}{c}{Change in expected questions won, Round 2 minus Round 1}\\
+      Sample & All & Prefer win & Prefer loss & No preference\\
+       & (1) & (2) & (3) & (4)\\
+      \midrule
+      Won question reviewed & 0.300 & 0.282 & 0.324 & 0.295\\
+       & (0.023) & (0.033) & (0.038) & (0.069)\\
+      Lost question reviewed & 0.558 & 0.565 & 0.562 & 0.509\\
+       & (0.022) & (0.034) & (0.031) & (0.070)\\
+      Difference & 0.258$^{***}$ & 0.284$^{***}$ & 0.238$^{***}$ & 0.214$^{**}$\\
+       & (0.032) & (0.048) & (0.049) & (0.098)\\
+       \\
+      Observations & 801 & 392 & 327 & 82\\
+      \bottomrule
+    \end{tabular}
+    \begin{tablenotes}
+      \footnotesize
+      \item \textit{Note:} Dependent variable: change in the participant's expected number of questions won out of five (computed against the pretest opponent pool) from Round 1 to Round 2. Rows: the mean change for participants assigned to review the won question and for those assigned the lost question, and the difference between them, from a regression of the change on an indicator for being assigned the lost question. Column (1) controls for the stated review preference (centered) and its interactions with the assignment; columns (2)--(4) split the sample by stated review preference. HC1 standard errors in parentheses. $^{*}$ $p<0.10$, $^{**}$ $p<0.05$, $^{***}$ $p<0.01$.
+    \end{tablenotes}
+  \end{threeparttable}
+\end{table}

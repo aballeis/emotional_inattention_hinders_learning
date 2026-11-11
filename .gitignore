@@ -1,0 +1,11 @@
+# Built by analysis/01_build.R
+**/data/built/
+
+# Database created when running the app locally
+nba_quiz/interface/data/
+
+.Rhistory
+.RData
+.Rproj.user/
+__pycache__/
+Rplots.pdf

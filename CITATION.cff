@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite it as below."
+title: "How Emotional Inattention Hinders Learning: data, code, and materials"
+authors:
+  - family-names: Balleisen
+    given-names: Aaron S.
+    affiliation: "Department of Social and Decision Sciences, Carnegie Mellon University"
+  - family-names: Bolte
+    given-names: Lukas
+  - family-names: Golman
+    given-names: Russell
+  - family-names: Hue
+    given-names: Jun
+  - family-names: Loewenstein
+    given-names: George
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/aballeis/emotional_inattention_hinders_learning"
+keywords:
+  - attention utility
+  - learning
+  - feedback avoidance
+  - chess
+  - experiment

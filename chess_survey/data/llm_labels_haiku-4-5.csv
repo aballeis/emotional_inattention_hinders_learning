@@ -1,0 +1,36 @@
+response_id,model,learn,unsure,curious,time,avoid,savor,gametype,note
+4b175a09-ee5a-4fb4-87de-9206d867f36e,claude-haiku-4-5,0,0,1,0,0,0,0,Player reviews games when they find the position or gameplay intellectually engaging or complex.
+147f7c6d-119a-44a4-ad5e-e9ccec867923,claude-haiku-4-5,1,1,0,1,0,0,0,Player reviews based on available time and desire to understand mistakes and unclear moments in the game.
+da842382-d0fe-4101-9f22-d15107055f17,claude-haiku-4-5,0,0,0,1,1,1,0,"Player avoids reviewing losses due to frustration/self-reproach, occasionally reviews wins/draws to savor them, but often prioritizes playing the next game or other activities over review due to time/attention constraints."
+2a1f75ed-8a94-4503-a02e-fac1bdc708e0,claude-haiku-4-5,0,0,0,1,0,0,1,"Player reviews based on time control (fast games have more mistakes) and opponent strength, both factors related to game type rather than learning motivation."
+680f332e-3bbb-4021-bbf2-1a8af28b6b46,claude-haiku-4-5,1,0,0,1,1,0,1,"Player avoids reviewing when frustrated, reviews losses against humans to learn, reviews bot games more often, and skips reviews when wanting to continue playing blitz."
+639bba34-b1a6-45ee-bf47-9819f581e2dd,claude-haiku-4-5,0,0,0,1,0,0,0,"The respondent indicates that their decision to review depends on how busy they are, which is a time constraint factor."
+9600f5b6-0902-42fc-bd25-16429a8d40b8,claude-haiku-4-5,1,0,0,0,0,0,0,"Player reviews games to learn from and improve their endgame technique, specifically focusing on games they lost despite having a winning position."
+985d27e3-d1cb-44b7-92ad-641f80db9495,claude-haiku-4-5,1,1,1,0,0,0,0,Player reviews games when they suspect they missed something (unsure) or when the game contained interesting positions worth analyzing (curious/learn).
+95faf903-4f75-4b0b-9d73-f43c7fdecb79,claude-haiku-4-5,1,0,0,0,0,0,0,Player reviews games to learn and update their understanding of opening theory and book knowledge.
+d95e5610-986a-49dc-97b6-d645081ddc68,claude-haiku-4-5,1,0,0,1,0,1,0,"Player reviews games when they have time available, focusing on improvement analysis, identifying good and bad moves, and enjoying their strong plays."
+dac6957f-c203-4f41-9edd-7e0aa65f5252,claude-haiku-4-5,1,1,0,0,0,0,0,"Player reviews to identify opening errors and missed tactical opportunities, combining learning goals with uncertainty about what went wrong."
+7400ceb4-a713-45be-9464-ad2f9f298f42,claude-haiku-4-5,0,0,0,0,0,0,1,"The respondent's decision to review is entirely determined by the time control of the game (blitz and rapid yes, bullet no)."
+d295e099-b7f0-4f54-88f0-4cc128d15c0b,claude-haiku-4-5,1,0,0,0,0,0,0,Player reviews games to identify critical turning points and learn what could have been played differently.
+0d93ea47-c6aa-4f07-99ac-41a2e501a1c9,claude-haiku-4-5,1,1,1,0,0,0,0,"Player reviews games to understand unexpected opening moves, driven by curiosity about novel positions and desire to learn from surprises in their openings."
+a4252807-ee05-49e1-a2c4-93c66d8781af,claude-haiku-4-5,1,0,0,0,0,0,0,Player reviews games specifically when they perceive educational value or learning opportunities.
+2714a75b-cdbc-44c5-a32e-8e324310fc77,claude-haiku-4-5,0,0,0,1,0,0,0,Player reviews games based on practical constraints like time availability and hunger rather than game-related factors.
+37eb094e-f524-46ca-ba7e-3963094f546b,claude-haiku-4-5,0,0,1,0,0,0,0,Player reviews games primarily when the positions are interesting or engaging.
+84442e4a-44e8-4d62-ba71-9b9105eb43a9,claude-haiku-4-5,1,1,0,0,0,0,0,Player reviews games to understand their mistakes and identify the critical turning point they missed during play.
+9a3f58ec-f434-4ade-b514-a72b1b590549,claude-haiku-4-5,0,0,0,1,0,0,0,Player skips reviews due to time constraints and preference to move on to the next game.
+e982bc46-61d0-49da-bc62-097fe5176ded,claude-haiku-4-5,0,0,1,0,1,0,0,"Player reviews hard-fought games out of interest in key positions, but avoids reviewing losses due to tilt and frustration from blunders or flagging."
+3c59881b-400a-4740-80f5-aeff0cd740d3,claude-haiku-4-5,1,0,0,0,0,1,0,"Player reviews to learn from missed tactics and ideas, and to savor brilliant moves they made."
+cc4e932a-5016-4ab3-9e17-5f63ea0810b4,claude-haiku-4-5,1,1,0,0,0,1,0,"Player reviews to understand mistakes (unsure), to learn from good play that resulted in losses (learn), and to enjoy brilliant moves (savor)."
+37fe1363-cb0f-405d-a256-c2275c7c26c0,claude-haiku-4-5,0,0,0,0,0,0,1,"Player reviews games based on time control, specifically longer formats like correspondence and league/tournament games."
+b600f2f8-0d0a-4682-b449-2fcfa9b3a957,claude-haiku-4-5,1,0,0,0,0,0,0,Player reviews games to identify factors that will help them improve and increase their winning chances.
+431039d4-0ff7-4e13-99e3-78aaa5ae5c63,claude-haiku-4-5,1,0,0,0,0,0,0,Player reviews games specifically to identify and learn from mistakes to improve future performance in similar situations.
+5dce5e36-0636-4ea3-88d3-a1ff0556144e,claude-haiku-4-5,1,1,0,0,0,0,0,Player reviews games to verify uncertain moments and validate whether their calculated moves were actually sound.
+6ff8c32f-6847-4d0a-b478-f832b514f00b,claude-haiku-4-5,1,0,1,0,0,0,1,"Player reviews games that were mentally challenging (not bullet), particularly losses, to learn from them and understand what made them think."
+f7903d8f-c10d-491e-95be-5d81e717c21a,claude-haiku-4-5,1,1,0,0,0,0,0,"Player reviews games to identify mistakes and understand critical decision points, particularly when uncertain about where the game went wrong or when deviating from opening theory."
+0ad9ca87-985f-42e3-befb-758410568bb5,claude-haiku-4-5,0,0,0,0,0,0,1,"The respondent indicates that whether they review depends on whether the game was played in person, which is a gametype factor."
+0e954e18-baa1-4e39-86de-18a16ddf7c6e,claude-haiku-4-5,1,0,0,0,0,1,0,"Player reviews to identify blunders and missed opportunities for improvement, and also to savor brilliant moves they made."
+000b5b03-a5cc-45e2-a8ff-9632b29cc503,claude-haiku-4-5,0,1,0,1,0,1,0,"Player reviews when they have time available, when uncertain about mistakes, or to confirm whether a game they thought was excellent actually was."
+a1226516-9a1b-4228-b217-d6e922758320,claude-haiku-4-5,1,0,0,0,0,0,0,Player reviews games specifically when they believe there are lessons to be learned from the game.
+b452c85a-2cfc-4527-bfa2-cebda18353ae,claude-haiku-4-5,1,0,0,0,1,0,0,"Player reviews to understand tactical losses and learn from calculation mistakes, but avoids reviewing obvious blunders due to frustration and already knowing what went wrong."
+800f3b9f-c1b7-47ce-a7fb-b190905b7a87,claude-haiku-4-5,0,0,1,0,1,1,0,"Avoids reviewing losses with blunders due to frustration, but reviews wins with blunders and complicated/drawn games to savor good play and understand complex positions."
+d17836c0-eb2a-48ce-b8ab-867eba696bad,claude-haiku-4-5,0,0,0,1,0,0,0,The respondent explicitly states that time availability is the determining factor in whether they review games.
