@@ -49,7 +49,7 @@ p_all <- ggplot(overall, aes(pref, 100 * p, fill = pref)) +
 p_belief <- ggplot(by_belief, aes(belief, 100 * p, fill = pref)) +
   bars(position = position_dodge(0.85), width = 0.8) + ci(position = position_dodge(0.85)) +
   scale_fill_manual(values = cols, labels = pref_labels) +
-  pct_axis + labs(x = "Belief: which review helps more in Round 2", y = NULL, title = "By belief") + theme_paper
+  pct_axis + labs(x = NULL, y = NULL, title = "By belief") + theme_paper
 save_fig((p_all + p_belief) + plot_layout(widths = c(1, 1.6), guides = "collect") & theme(legend.position = "bottom"),
          "nba_review_preferences", 6.5, 3.2)
 

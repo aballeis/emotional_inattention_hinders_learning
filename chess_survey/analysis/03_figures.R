@@ -44,12 +44,15 @@ time <- d %>%
   ggplot(aes(v, 100 * p, colour = games)) +
   geom_errorbar(aes(ymin = lo, ymax = hi), position = position_dodge(0.3), width = 0.12, linewidth = 0.5) +
   geom_point(position = position_dodge(0.3), size = 3.2) +
+  geom_col(aes(y = 0, fill = games), colour = NA, width = 0) +
   annotate("text", x = 2, y = 93, label = p_label(binom_p(sum(d$shift > 0), sum(d$shift != 0))), parse = TRUE, size = 3.4) +
-  scale_colour_manual(values = unname(cols[c("loss", "win")])) +
+  scale_colour_manual(values = unname(cols[c("loss", "win")]), guide = "none") +
+  scale_fill_manual(values = unname(cols[c("loss", "win")]), labels = c("Reviewing losses", "Reviewing wins"),
+                    guide = guide_legend(override.aes = list(colour = "grey30", linewidth = 0.2))) +
   pct_axis + labs(x = NULL, y = NULL, title = "(c) Wish to spend ... time") + theme_paper +
-  coord_cartesian(clip = "off") +
-  theme(legend.position = "inside", legend.position.inside = c(0.2, 0.65))
+  coord_cartesian(clip = "off")
 
 file <- file.path(out_dir, "chess_survey_all_answers.pdf")
-ggsave(file, helpful + pleasant + time, width = 7.4, height = 2.9, device = cairo_pdf)
+ggsave(file, (helpful + pleasant + time) + plot_layout(guides = "collect") & theme(legend.position = "bottom"),
+       width = 7.4, height = 3.2, device = cairo_pdf)
 if (dir.exists(paper_dir)) invisible(file.copy(file, paper_dir, overwrite = TRUE))
