@@ -28,11 +28,11 @@ panel <- function(answers, levels, labels, fill, title, p) {
     scale_x_discrete(labels = labels) + pct_axis + labs(x = NULL, y = NULL, title = title) + theme_paper
 }
 
-helpful <- panel(d$helps_more, c("lost", "won", "both", "neither"), c("Loss", "Win", "Both\nequally", "Neither"),
+helpful <- panel(d$helps_more, c("lost", "won", "both", "neither"), c("Losses", "Wins", "Both\nequally", "Neither"),
                  cols[c("loss", "win", "other", "other")], "(a) More helpful",
                  binom_p(sum(d$helps_more == "lost"), sum(d$helps_more %in% c("lost", "won")))) +
   labs(y = "Share of respondents (%)")
-pleasant <- panel(d$feels_better, c("lost", "won", "nodiff"), c("Loss", "Win", "No\ndifference"),
+pleasant <- panel(d$feels_better, c("lost", "won", "nodiff"), c("Losses", "Wins", "No\ndifference"),
                   cols[c("loss", "win", "other")], "(b) More pleasant",
                   binom_p(sum(d$feels_better == "won"), sum(d$feels_better %in% c("won", "lost"))))
 time <- d %>%
