@@ -29,30 +29,31 @@ panel <- function(answers, levels, labels, fill, title, p) {
 }
 
 helpful <- panel(d$helps_more, c("lost", "won", "both", "neither"), c("Losses", "Wins", "Both\nequally", "Neither"),
-                 cols[c("loss", "win", "other", "other")], "(a) More helpful",
+                 cols[c("loss", "win", "other", "other")], "(a) More helpful to review",
                  binom_p(sum(d$helps_more == "lost"), sum(d$helps_more %in% c("lost", "won")))) +
   labs(y = "Share of respondents (%)")
 pleasant <- panel(d$feels_better, c("lost", "won", "nodiff"), c("Losses", "Wins", "No\ndifference"),
-                  cols[c("loss", "win", "other")], "(b) More pleasant",
+                  cols[c("loss", "win", "other")], "(b) More pleasant to review",
                   binom_p(sum(d$feels_better == "won"), sum(d$feels_better %in% c("won", "lost"))))
-time <- d %>%
-  pivot_longer(c(time_wins, time_losses), names_to = "games", values_to = "v") %>%
-  mutate(games = factor(games, c("time_losses", "time_wins"), c("Losses", "Wins")),
-         v = factor(v, c(-1, 0, 1), c("Less", "Same", "More"))) %>%
-  count(games, v, .drop = FALSE) %>%
-  share() %>%
-  ggplot(aes(v, 100 * p, colour = games)) +
-  geom_errorbar(aes(ymin = lo, ymax = hi), position = position_dodge(0.3), width = 0.12, linewidth = 0.5) +
-  geom_point(position = position_dodge(0.3), size = 3.2) +
-  geom_col(aes(y = 0, fill = games), colour = NA, width = 0) +
-  annotate("text", x = 2, y = 93, label = p_label(binom_p(sum(d$shift > 0), sum(d$shift != 0))), parse = TRUE, size = 3.4) +
-  scale_colour_manual(values = unname(cols[c("loss", "win")]), guide = "none") +
-  scale_fill_manual(values = unname(cols[c("loss", "win")]), labels = c("Reviewing losses", "Reviewing wins"),
-                    guide = guide_legend(override.aes = list(colour = "grey30", linewidth = 0.2))) +
-  pct_axis + labs(x = NULL, y = NULL, title = "(c) Wish to spend ... time") + theme_paper +
-  coord_cartesian(clip = "off")
+
+time_half <- function(x, label, colour, title = NULL, p = NULL) {
+  g <- tibble(v = factor(x, c(-1, 0, 1), c("Less", "Same", "More"))) %>%
+    count(v, .drop = FALSE) %>%
+    share() %>%
+    ggplot(aes(v, 100 * p)) +
+    geom_col(fill = colour, colour = "grey30", linewidth = 0.2, width = 0.6) +
+    geom_errorbar(aes(ymin = lo, ymax = hi), width = 0.12, linewidth = 0.5) +
+    annotate("text", x = 0.55, y = 92, label = label, colour = colour, hjust = 0, size = 3.6) +
+    scale_y_continuous(limits = c(0, 100), breaks = c(0, 50, 100), expand = expansion(mult = c(0, 0.02))) +
+    labs(x = NULL, y = NULL, title = title) + theme_paper
+  if (!is.null(p)) g <- g + annotate("text", x = 2.4, y = 92, label = p_label(p), parse = TRUE, size = 3.4)
+  g
+}
+time_losses <- time_half(d$time_losses, "Losses", cols[["loss"]], "(c) Wish to spend ... time reviewing",
+                         binom_p(sum(d$shift > 0), sum(d$shift != 0))) +
+  theme(axis.text.x = element_blank())
+time_wins <- time_half(d$time_wins, "Wins", cols[["win"]])
 
 file <- file.path(out_dir, "chess_survey_all_answers.pdf")
-ggsave(file, (helpful + pleasant + time) + plot_layout(guides = "collect") & theme(legend.position = "bottom"),
-       width = 7.4, height = 3.2, device = cairo_pdf)
+ggsave(file, helpful + pleasant + (time_losses / time_wins), width = 7.4, height = 3.0, device = cairo_pdf)
 if (dir.exists(paper_dir)) invisible(file.copy(file, paper_dir, overwrite = TRUE))
