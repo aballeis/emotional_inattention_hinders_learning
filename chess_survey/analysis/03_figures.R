@@ -23,6 +23,7 @@ panel <- function(answers, levels, labels, fill, title, p) {
     share() %>%
     ggplot(aes(a, 100 * p)) +
     geom_col(fill = fill, colour = "grey30", linewidth = 0.2, width = 0.6) +
+    geom_errorbar(aes(ymin = lo, ymax = hi), width = 0.12, linewidth = 0.5) +
     annotate("text", x = mean(seq_along(levels)), y = 93, label = p_label(p), parse = TRUE, size = 3.4) +
     scale_x_discrete(labels = labels) + pct_axis + labs(x = NULL, y = NULL, title = title) + theme_paper
 }
@@ -41,6 +42,7 @@ time_half <- function(x, label, colour, title = NULL, p = NULL) {
     share() %>%
     ggplot(aes(v, 100 * p)) +
     geom_col(fill = colour, colour = "grey30", linewidth = 0.2, width = 0.6) +
+    geom_errorbar(aes(ymin = lo, ymax = hi), width = 0.12, linewidth = 0.5) +
     annotate("text", x = 0.55, y = 92, label = label, colour = colour, hjust = 0, size = 3.6) +
     scale_y_continuous(limits = c(0, 100), breaks = c(0, 50, 100), expand = expansion(mult = c(0, 0.02))) +
     labs(x = NULL, y = NULL, title = title) + theme_paper
